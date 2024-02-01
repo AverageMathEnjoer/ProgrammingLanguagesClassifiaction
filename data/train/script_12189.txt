@@ -1,0 +1,1 @@
+b'package com.rd.animation.data.type;\n\nimport com.rd.animation.data.Value;\n\npublic class SlideAnimationValue implements Value {\n\n    private int coordinate;\n\n    public int getCoordinate() {\n        return coordinate;\n    }\n\n    public void setCoordinate(int coordinate) {\n        this.coordinate = coordinate;\n    }\n}\n'

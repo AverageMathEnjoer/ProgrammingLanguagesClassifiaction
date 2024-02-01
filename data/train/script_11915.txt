@@ -1,0 +1,1 @@
+b'/*\n    SPDX-FileCopyrightText: 2021 Milian Wolff <mail@milianw.de>\n\n    SPDX-License-Identifier: LGPL-2.1-or-later\n*/\n\n#include <cstdlib>\n\n#include "../../benchutil.h"\n\nint main()\n{\n    auto p = malloc(42);\n    escape(p);\n    free(p);\n    return 0;\n}\n'

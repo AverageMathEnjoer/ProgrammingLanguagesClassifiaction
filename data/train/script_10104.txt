@@ -1,0 +1,1 @@
+b'package com.rd.draw.data;\n\npublic enum RtlMode {On, Off, Auto}'

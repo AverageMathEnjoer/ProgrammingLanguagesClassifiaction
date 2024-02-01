@@ -1,0 +1,1 @@
+b'// Warning: generated file; your changes could be lost when a new file is generated.\n#I __SOURCE_DIRECTORY__\n#load "load-references-debug.fsx"\n#load "../AssemblyInfo.fs"\n      "../CustomerRepository.fs"\n      "../Program.fs"\n'

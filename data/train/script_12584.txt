@@ -1,0 +1,1 @@
+b'import System.IO\n\nwordreverse :: [Char] -> [Char]\nwordreverse xs\n\t| length xs < 2 = xs\n\t| otherwise = do\n\t    take 1 xs ++ (reverse $ drop 1 (take ((length xs) - 1) xs )) ++ drop (length xs -1) xs\n\nmain :: IO ()\nmain = do\n    strings <- getLine\n    putStrLn $unwords $map wordreverse $words strings\n    f<- isEOF\n    if f then return() else main\n'

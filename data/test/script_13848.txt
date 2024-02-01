@@ -1,0 +1,1 @@
+b'package com.bennyhuo.kotlin.update15.valueclass\n\n/**\n * Created by benny.\n */\n\ninline class DurationForLegacy(val value: Long)\n\n@JvmInline\nvalue class DurationForNew(val value: Long)'

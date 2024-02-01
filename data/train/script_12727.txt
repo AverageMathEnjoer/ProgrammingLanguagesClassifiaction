@@ -1,0 +1,1 @@
+b'package effectivejava.chapter11.item79;\n\n// Set obeserver callback interface - Page 266\npublic interface SetObserver<E> {\n    // Invoked when an element is added to the observable set\n    void added(ObservableSet<E> set, E element);\n}\n'

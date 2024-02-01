@@ -1,0 +1,1 @@
+b'package net.println.kt02\n\n/**\n * Created by benny on 10/11/16.\n */\n\nfun main(args : Array<out String>){\n    println("Hello World!!!")\n    println(Main(0, "bennyhuo"))\n}\n\ndata class Main(val id : Int, val name: String)'

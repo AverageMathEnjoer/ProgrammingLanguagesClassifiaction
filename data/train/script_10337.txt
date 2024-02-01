@@ -1,0 +1,1 @@
+b'module Hoodle.Coroutine.Highlighter where\n\nimport Hoodle.Coroutine.Pen (penStart)\nimport Hoodle.Device (PointerCoord)\nimport Hoodle.Type.Canvas (CanvasId)\nimport Hoodle.Type.Coroutine (MainCoroutine)\n\n-- |\nhighlighterStart ::\n  CanvasId ->\n  PointerCoord ->\n  MainCoroutine (Maybe (Maybe (Maybe ())))\nhighlighterStart = penStart\n'

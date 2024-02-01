@@ -1,0 +1,1 @@
+b'package net.println.kt13.config\n\n/**\n * Created by benny on 12/11/16.\n */\nobject Settings {\n\n    const val DEBUG = true\n\n}'

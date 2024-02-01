@@ -1,0 +1,1 @@
+b'// UVa12230 Crossing Rivers\n// Rujia Liu\n#include<cstdio>\nint main() {\n  int n, D, p, L, v, kase = 0;\n  while(scanf("%d%d", &n, &D) == 2 && D) {\n    double ans = 0;\n    while(n--) {\n      scanf("%d%d%d", &p, &L, &v);\n      D -= L; ans += 2.0 * L / v;\n    }\n    printf("Case %d: %.3lf\\n\\n", ++kase, ans + D);\n  }\n  return 0;\n}\n'

@@ -1,0 +1,1 @@
+b'/*\n    SPDX-FileCopyrightText: 2015-2017 Milian Wolff <mail@milianw.de>\n\n    SPDX-License-Identifier: LGPL-2.1-or-later\n*/\n\n#include "bench_pointers.h"\n#include "src/util/pointermap.h"\n\nint main()\n{\n    benchPointers<PointerMap>();\n    return 0;\n}\n'

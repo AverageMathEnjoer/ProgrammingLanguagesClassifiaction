@@ -1,0 +1,1 @@
+b'package com.bennyhuo.kotlin.js.kclassvalue\n\n/**\n * Created by benny.\n */\nfun testKClass() {\n    val anyClass = Any::class\n    val anyClass2 = Any::class\n\n    println(anyClass === anyClass2)\n\n    val personClass = Person::class\n    val personClass2 = Person::class\n    println(personClass === personClass2)\n}\n\nclass Person'

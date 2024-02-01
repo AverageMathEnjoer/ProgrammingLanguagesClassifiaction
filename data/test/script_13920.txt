@@ -1,0 +1,1 @@
+b'package com.rd.animation.data;\n\npublic interface Value {/*empty*/}\n'

@@ -1,0 +1,1 @@
+b'package co.joebirch.composeplayground\n\nimport org.junit.Assert.assertEquals\nimport org.junit.Test\n\n/**\n * Example local unit test, which will execute on the development machine (host).\n *\n * See [testing documentation](http://d.android.com/tools/testing).\n */\nclass ExampleUnitTest {\n    @Test\n    fun addition_isCorrect() {\n        assertEquals(4, 2 + 2)\n    }\n}'

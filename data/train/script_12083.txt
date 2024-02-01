@@ -1,0 +1,1 @@
+b'struct Point { double x, y; };\n\ndouble dist(Point a, Point b)\n{\n  return 0;\n}\n\nint main() {\n  return 0;\n}\n'

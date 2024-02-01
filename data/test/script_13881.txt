@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\nusing Core.DataAccess;\nusing Entities.Concrete;\n\nnamespace DataAccess.Abstract\n{\n    public interface ICategoryDal:IEntityRepository<Category>\n    {\n    }\n}\n'

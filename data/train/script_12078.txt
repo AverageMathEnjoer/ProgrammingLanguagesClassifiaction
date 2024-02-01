@@ -1,0 +1,1 @@
+b'package com.yyydjk.library;\n\nimport org.junit.Test;\n\nimport static org.junit.Assert.*;\n\n/**\n * To work on unit tests, switch the Test Artifact in the Build Variants view.\n */\npublic class ExampleUnitTest {\n    @Test\n    public void addition_isCorrect() throws Exception {\n        assertEquals(4, 2 + 2);\n    }\n}'

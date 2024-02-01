@@ -1,0 +1,1 @@
+b'smallest :: Ord a => Int -> ([a], [a]) -> a\nsmallest k (xs, ys) = union (xs, ys) !! k\n\nunion (xs, [ ]) = xs\nunion ([ ], ys) = ys\nunion (x : xs, y : ys) \n    | x < y     = x : union (xs, y : ys)\n    | x > y     = y : union (x : xs, ys)\n'

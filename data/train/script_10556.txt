@@ -1,0 +1,1 @@
+b'module Text.Xournal.Parse.Zlib where\n\nimport qualified Data.ByteString.Lazy as LB\nimport System.IO (IOMode (..), withFile)\n\n-- | check if gzip or not\ncheckIfBinary :: FilePath -> IO Bool\ncheckIfBinary fname =\n  withFile fname ReadMode $ \\h -> do\n    b <- return . LB.any (== 0) . LB.take 100 =<< LB.hGetContents h\n    b `seq` return b\n'

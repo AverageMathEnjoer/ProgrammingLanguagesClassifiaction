@@ -1,0 +1,1 @@
+b'import Data.Array\n\ncountlist :: [Integer] -> Array Integer Integer\n\ncountlist xs = accumArray (+) 0 (0, n) (zip xs (repeat 1)) \n    where n = toInteger (length xs)\n'

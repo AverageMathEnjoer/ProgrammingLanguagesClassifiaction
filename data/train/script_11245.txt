@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\nusing Core.DataAccess;\nusing Core.Entities.Concrete;\nusing Entities.Concrete;\n\nnamespace DataAccess.Abstract\n{\n    public interface IUserDal:IEntityRepository<User>\n    {\n        List<OperationClaim> GetClaims(User user);\n    }\n}\n'

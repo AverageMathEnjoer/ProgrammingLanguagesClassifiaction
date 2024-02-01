@@ -1,0 +1,1 @@
+b'package net.println.kt08\n\n/**\n * Created by benny on 11/1/16.\n */\ndata class User(val login: String, val id: Long, val avatar_url: String){\n    override fun toString(): String {\n        return login\n    }\n}'

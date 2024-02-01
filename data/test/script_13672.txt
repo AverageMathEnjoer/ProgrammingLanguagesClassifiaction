@@ -1,0 +1,1 @@
+b'module Rest.Driver.Routing\n  ( route\n  , mkListHandler\n  , mkMultiHandler\n\n  , UriParts\n  , splitUriString\n  ) where\n\nimport Rest.Driver.Routing.Internal\n'

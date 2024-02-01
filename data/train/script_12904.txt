@@ -1,0 +1,1 @@
+b'// Copyright (C) 2022 Manuel Schneider\n\nextern int main(int argc, char **argv);\n'

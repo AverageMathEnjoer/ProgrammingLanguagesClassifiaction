@@ -1,0 +1,1 @@
+b'package com.bennyhuo.kotlin.ide\n\ninterface Api {\n    val state: Int\n\n    fun start()\n\n    fun stop()\n}\n\nclass ApiImpl : Api {\n    override val state: Int\n        get() = 0\n\n    override fun start() {\n    }\n\n    override fun stop() {\n    }\n\n\n}'

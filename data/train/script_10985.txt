@@ -1,0 +1,1 @@
+b'package net.println.kt12\n\n/**\n * Created by benny on 12/1/16.\n */\ndata class BaseResult<Content>(val code: Int, val message: String, val content: Content)\n\ndata class Song(val id: Long, val name: String)\n\ndata class Singer(val id: Long, val name: String, val songs: List<Song>)\n'

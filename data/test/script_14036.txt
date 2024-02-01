@@ -1,0 +1,1 @@
+b'package com.bennyhuo.kotlin.update15.jvmrecord\n\n/**\n * Created by benny at 2021/6/20 9:35.\n */\nopen class Super\n@JvmRecord\ndata class KotlinPerson(val name: String, val age: Int) {\n\n}\n\nfun main() {\n    val person = JavaRecordSample.Person("bennyhuo", 1)\n\n}'

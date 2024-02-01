@@ -1,0 +1,1 @@
+b'package net.println.kt13.module\n\nimport dagger.Module\nimport dagger.Provides\nimport retrofit2.CallAdapter\nimport retrofit2.adapter.rxjava.RxJavaCallAdapterFactory\nimport javax.inject.Singleton\n\n/**\n * Created by benny on 12/11/16.\n */\n@Module\nclass RxAdapterModule {\n    @Singleton @Provides fun adapter(): CallAdapter.Factory = RxJavaCallAdapterFactory.create()\n}'

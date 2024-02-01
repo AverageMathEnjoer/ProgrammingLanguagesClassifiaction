@@ -1,0 +1,1 @@
+b'package net.println.kt05\n\n/**\n * a_b_c d_e f_g_h_j\n * a b c d e f g h j\n * Created by benny on 10/14/16.\n */\nfun main(vararg args: String) {\n    args.flatMap {\n        it.split("_")\n    }.map {\n        print("$it  ${it.length}")\n    }\n}'

@@ -1,0 +1,1 @@
+b'package com.bennyhuo.kotlin.samissue.sub\n\nimport com.bennyhuo.kotlin.samissue.View\n\nfun main() {\n    View().setOnSizeChangedListener { width, height ->\n        println("w: $width, h: $height")\n    }\n\n}'

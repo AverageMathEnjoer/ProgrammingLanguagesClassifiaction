@@ -1,0 +1,1 @@
+b'\n-- | Flate decode filter\n\nmodule Pdf.Core.Stream.Filter.FlateDecode\n(\n  flateDecode\n)\nwhere\n\nimport Pdf.Core.Stream.Filter.Type\n\n-- | Vary basic implementation. Only PNG-UP prediction is implemented\n--\n-- Nothing when zlib is disabled via cabal flag\nflateDecode :: Maybe StreamFilter\nflateDecode = Nothing\n'

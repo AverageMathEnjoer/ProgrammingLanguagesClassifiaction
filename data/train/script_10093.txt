@@ -1,0 +1,1 @@
+b'import Data.Text    (pack)\nimport Data.Monoid  ((<>))\nimport Data.Text.IO (getLine, putStrLn)\nimport Prelude hiding (getLine, putStrLn)\n\nmain :: IO ()\nmain = do\n  name <- getLine\n  putStrLn $ pack "Hello, " <> name\n\n\n'

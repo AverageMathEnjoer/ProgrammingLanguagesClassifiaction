@@ -1,0 +1,1 @@
+b'package droidninja.filepicker.adapters\n\ninterface FileAdapterListener {\n    fun onItemSelected()\n}'

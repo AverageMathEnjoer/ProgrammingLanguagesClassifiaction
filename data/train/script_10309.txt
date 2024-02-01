@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.CrossCuttingConcerns.Logging\n{\n    public class LogParameter\n    {\n        public string Name { get; set; }\n        public object Value { get; set; }\n        public string Type { get; set; }\n    }\n}\n'

@@ -1,0 +1,1 @@
+b'package net.println.kt15\n\n/**\n * Created by benny on 12/17/16.\n */\n@Volatile var count: Int = 0\n\nfun count(){\n    synchronized(count){\n        count++\n    }\n}\n'

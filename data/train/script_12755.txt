@@ -1,0 +1,1 @@
+b'package com.rd.animation.data.type;\n\nimport com.rd.animation.data.Value;\n\npublic class ThinWormAnimationValue extends WormAnimationValue implements Value {\n\n    private int height;\n\n    public int getHeight() {\n        return height;\n    }\n\n    public void setHeight(int height) {\n        this.height = height;\n    }\n}\n'

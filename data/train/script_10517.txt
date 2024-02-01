@@ -1,0 +1,1 @@
+b'#load "Domain.fs"\n#load "Operations.fs"\n\nopen Capstone3.Operations\nopen Capstone3.Domain\nopen System\n\n'

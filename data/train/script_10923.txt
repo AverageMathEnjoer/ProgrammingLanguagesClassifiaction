@@ -1,0 +1,1 @@
+b'package com.db.williamchart.renderer\n\nclass RendererConstants {\n    companion object {\n        internal const val defaultScaleNumberOfSteps = 3\n        internal const val notInitialized = -1f\n        internal const val inDebug = false\n        internal const val labelsPaddingToInnerChart = 15f\n    }\n}\n'

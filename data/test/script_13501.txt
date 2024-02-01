@@ -1,0 +1,1 @@
+b'package com.db.williamchart.data.configuration\n\nimport com.db.williamchart.data.Paddings\n\ndata class DonutChartConfiguration(\n    val width: Int,\n    val height: Int,\n    val paddings: Paddings,\n    val thickness: Float,\n    val total: Float,\n    val colorsSize: Int,\n    val barBackgroundColor: Int\n)\n'

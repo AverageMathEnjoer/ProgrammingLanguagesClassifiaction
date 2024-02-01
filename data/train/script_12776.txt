@@ -1,0 +1,1 @@
+b'{-# LANGUAGE DataKinds, TypeOperators #-}\n{-# LANGUAGE TypeOperators, ScopedTypeVariables, FlexibleContexts #-}\n\nmodule FFI.Anything.TypeUncurry (\n  -- | You see this because your compiler supports DataKinds.\n  module FFI.Anything.TypeUncurry.DataKinds\n) where\n\n\nimport FFI.Anything.TypeUncurry.DataKinds\n'

@@ -1,0 +1,1 @@
+b'import org.junit.Test\nimport java.util.*\n\nclass GenerateUUID {\n    @Test\n    fun generateUUID() {\n        repeat(10) {\n            val uuid = UUID.randomUUID().toString().replace("-","")\n            println(uuid)\n        }\n    }\n}'

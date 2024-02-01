@@ -1,0 +1,1 @@
+b'package com.db.williamchart\n\nimport android.view.ViewGroup\n\ninterface Tooltip {\n    fun onCreateTooltip(parentView: ViewGroup)\n    fun onDataPointTouch(x: Float, y: Float)\n    fun onDataPointClick(x: Float, y: Float)\n}\n'

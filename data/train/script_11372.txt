@@ -1,0 +1,1 @@
+b'context("QR")\ntest_that("not using QR works as expected", {\n  set.seed(1)\n  dds <- makeExampleDESeqDataSet(n=100,betaSD=1)\n  dds <- DESeq(dds, quiet=TRUE)\n  ddsNoQR <- nbinomWaldTest(dds, useQR=FALSE)\n  res <- results(dds)\n  resNoQR <- results(ddsNoQR)\n  expect_equal(res$log2FoldChange, resNoQR$log2FoldChange, tolerance=1e-6)\n})\n'

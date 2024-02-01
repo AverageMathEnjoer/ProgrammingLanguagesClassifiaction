@@ -1,0 +1,1 @@
+b'package net.println.kt14\n\n/**\n * Created by benny on 12/18/16.\n */\nclass Overloads {\n    @JvmOverloads\n    fun overloaded(a: Int, b: Int = 0, c: Int = 1){\n        println("$a, $b, $c")\n    }\n}'

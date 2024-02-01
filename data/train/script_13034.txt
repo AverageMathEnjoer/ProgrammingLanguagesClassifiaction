@@ -1,0 +1,1 @@
+b'package net.println.kt10.kotlin\n\n/**\n * Created by benny on 11/13/16.\n */\nclass LazyThreadSafeStaticInnerObject private constructor(){\n    companion object{\n        fun getInstance() = Holder.instance\n    }\n\n    private object Holder{\n        val instance = LazyThreadSafeStaticInnerObject()\n    }\n}'

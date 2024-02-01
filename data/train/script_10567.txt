@@ -1,0 +1,1 @@
+b'library(testthat)\nlibrary(fastLink)\n\ntest_check("fastLink")\n'

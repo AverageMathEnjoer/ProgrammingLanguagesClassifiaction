@@ -1,0 +1,1 @@
+b'module Main where\n\nimport Test.Tasty\n\nimport qualified Database.Beam.Sqlite.Test.Migrate as Migrate\nimport qualified Database.Beam.Sqlite.Test.Insert as Insert\nimport qualified Database.Beam.Sqlite.Test.Select as Select\n\nmain :: IO ()\nmain = defaultMain $ testGroup "beam-sqlite tests"\n  [ Migrate.tests\n  , Select.tests\n  , Insert.tests\n  ]\n'

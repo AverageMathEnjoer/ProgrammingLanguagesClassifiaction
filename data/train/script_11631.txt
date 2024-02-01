@@ -1,0 +1,1 @@
+b'// Listing 12.1\nlet file = @"C:\\users\\isaac\\downloads\\foo.txt"\nSystem.IO.File.ReadLines file\n\nopen System.IO\nFile.ReadAllLines file\n\nSystem.IO.File.Delete\n'

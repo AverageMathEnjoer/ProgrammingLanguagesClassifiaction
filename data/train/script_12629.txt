@@ -1,0 +1,1 @@
+b'package icu.nullptr.twifucker.hook\n\nabstract class BaseHook {\n    var isInit: Boolean = false\n    abstract val name: String\n    abstract fun init()\n}'

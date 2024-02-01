@@ -1,0 +1,1 @@
+b'package net.println.kt03\n\n/**\n * Created by benny on 10/11/16.\n */\nfun main(args: Array<out String>){\n    val user = User(0, "bennyhuo")\n    println(user)\n\n    HelloKotlin::class.constructors.map(::println)\n}\n\nclass HelloKotlin{\n    fun hello(){\n\n    }\n}'

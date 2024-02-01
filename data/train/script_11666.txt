@@ -1,0 +1,1 @@
+b'\xef\xbb\xbf// Learn more about F# at http://fsharp.org. See the \'F# Tutorial\' project\n// for more guidance on F# programming.\n\n#load "Library1.fs"\nopen GameLogic\n\n// Define your library scripting code here\n\n'

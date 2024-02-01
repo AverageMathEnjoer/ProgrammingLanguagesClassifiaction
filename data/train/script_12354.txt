@@ -1,0 +1,1 @@
+b'module Database.Beam.Sqlite.Test where\n\nimport Control.Exception\nimport Database.SQLite.Simple\nimport Test.Tasty.HUnit\n\nwithTestDb :: (Connection -> IO a) -> IO a\nwithTestDb = flip catch asFailure . bracket (open ":memory:") close\n  where asFailure (e :: SomeException) = assertFailure $ show e\n'

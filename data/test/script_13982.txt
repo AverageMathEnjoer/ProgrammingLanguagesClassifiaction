@@ -1,0 +1,1 @@
+b'package net.println.kt13\n\nimport dagger.Component\nimport net.println.kt13.module.RetrofitModule\nimport retrofit2.Retrofit\nimport javax.inject.Singleton\n\n/**\n * Created by benny on 12/11/16.\n */\n@Singleton\n@Component(modules = arrayOf(RetrofitModule::class))\ninterface RESTFulComponent {\n    fun retrofit(): Retrofit\n}'

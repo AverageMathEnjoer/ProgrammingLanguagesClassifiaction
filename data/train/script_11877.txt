@@ -1,0 +1,1 @@
+b'// UVa679 Dropping Balls\n// Rujia Liu\n#include<cstdio>\nint main() {\n  int T, D, I;\n  scanf("%d", &T);\n  while(T--) {\n    scanf("%d%d", &D, &I);\n    int k = 1;\n    for(int i = 0; i < D-1; i++)\n      if(I%2) { k = k*2; I = (I+1)/2; }\n      else { k = k*2+1; I /= 2; }\n    printf("%d\\n", k);\n  }\n  return 0;\n}\n'

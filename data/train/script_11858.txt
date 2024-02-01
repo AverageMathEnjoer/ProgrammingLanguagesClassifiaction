@@ -1,0 +1,1 @@
+b'package effectivejava.chapter6.item38;\n\n// Emulated extensible enum using an interface (Page 176)\npublic interface Operation {\n    double apply(double x, double y);\n}\n'

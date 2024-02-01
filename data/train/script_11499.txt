@@ -1,0 +1,1 @@
+b'package droidninja.filepicker.utils\n\nimport androidx.core.content.FileProvider\n\n/**\n * Created by Donglu on 2017/6/7.\n */\n\nclass FilePickerProvider : FileProvider()'

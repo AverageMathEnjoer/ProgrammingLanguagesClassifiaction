@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.Utilities.Messages\n{\n    public static class AspectMessages\n    {\n        public static string WrongValidationType = "Wrong Validation Type";\n        public static string WrongLoggerType = "Wrong Logger Type";\n    }\n}\n'

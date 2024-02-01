@@ -1,0 +1,1 @@
+b'-----------------------------------------------------------------------------\n\n-- |\n-- Module      : Data.Hoodle.Primitive\n-- Copyright   : (c) 2013 Ian-Woo Kim\n--\n-- License     : BSD3\n-- Maintainer  : Ian-Woo Kim <ianwookim@gmail.com>\n-- Stability   : experimental\n-- Portability : GHC\n--\n-- primitive types for hoodle\nmodule Data.Hoodle.Primitive where\n'

@@ -1,0 +1,1 @@
+b'module Main where\n\nimport Data.Map as C\nimport SetOperations\n\nmain = benchmark (\\xs -> fromList [(x, x) | x <- xs]) True [("union", C.union), ("difference", C.difference), ("intersection", C.intersection)]\n'

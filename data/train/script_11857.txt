@@ -1,0 +1,1 @@
+b'package effectivejava.chapter6.item39.annotationwitharrayparameter;\nimport java.lang.annotation.*;\n\n// Annotation type with an array parameter  (Page 184)\n@Retention(RetentionPolicy.RUNTIME)\n@Target(ElementType.METHOD)\npublic @interface ExceptionTest {\n    Class<? extends Exception>[] value();\n}'

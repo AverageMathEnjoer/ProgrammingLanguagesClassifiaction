@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\nusing Core.Entities;\n\nnamespace Entities.Concrete\n{\n    public class Category:IEntity\n    {\n        public int CategoryId { get; set; }\n        public string CategoryName { get; set; }\n    }\n}\n'

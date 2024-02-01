@@ -1,0 +1,1 @@
+b'// UVa272 Tex Quotes\n// Rujia Liu\n#include<stdio.h>\nint main() { \n  int c, q = 1;\n  while((c = getchar()) != EOF) {\n    if(c == \'"\') { printf("%s", q ? "``" : "\'\'"); q = !q; }\n    else printf("%c", c);\n  }\n  return 0;\n}\n'

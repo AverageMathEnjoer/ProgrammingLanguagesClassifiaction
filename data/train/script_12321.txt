@@ -1,0 +1,1 @@
+b'{-# LANGUAGE TemplateHaskell, BangPatterns, CPP #-}\n\nmodule ParTests2 (tests) where\n\nimport Control.Monad.Par.Scheds.Direct\n\n#include "ParTests_shared.hs"\n'

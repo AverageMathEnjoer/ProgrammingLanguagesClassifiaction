@@ -1,0 +1,1 @@
+b'double f(double x){\n\tdouble ans = T(dis(x1,Y1, x,0), v1);\n\t ans += T(dis(x2,y2, x,0), v2);\n\t return ans;\n}\ndouble ter(double lo, double hi, int iter = 0){\n\tif (iter == 300) return lo;\n\tdouble m1 = lo + (hi-lo)/3;\n\tdouble m2 = hi - (hi-lo)/3;\n\tif (f(m1) > f(m2)) return ter(m1, hi, iter+1);\n\telse return ter(lo, m2, iter+1);\n}\n'

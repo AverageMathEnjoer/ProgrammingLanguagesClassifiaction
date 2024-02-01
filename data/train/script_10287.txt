@@ -1,0 +1,1 @@
+b'package wendu.dsbridge;\n\n/**\n * Created by du on 16/12/31.\n */\n\npublic interface  CompletionHandler<T> {\n    void complete(T retValue);\n    void complete();\n    void setProgressData(T value);\n}\n'

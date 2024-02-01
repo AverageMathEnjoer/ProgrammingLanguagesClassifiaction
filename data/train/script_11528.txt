@@ -1,0 +1,1 @@
+b'package droidninja.filepicker.models\n\nimport android.os.Parcelable\nimport androidx.annotation.DrawableRes\nimport kotlinx.android.parcel.Parcelize\n\n/**\n * Created by droidNinja on 29/07/16.\n */\n@Parcelize\nclass FileType constructor(\n        var title: String,\n        var extensions : Array<String>,\n        @DrawableRes\n        var drawable: Int\n) : Parcelable'

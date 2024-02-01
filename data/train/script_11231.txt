@@ -1,0 +1,1 @@
+b'#include <iostream>\n#include <iomanip>\n#include <vector>\nusing namespace std;\n\n\n\nint main()\n{\n    bigint a = bigint("1");\n    int b = 2;\n    for(int i=1; i<100; i++)\n    {\n        a = a*b;\n    }\n    \n    cout << a << endl;\n\n    for(int i=1; i<99; i++)\n    {\n        a /= b;\n    }\n\n    cout << a << endl;\n}\n'

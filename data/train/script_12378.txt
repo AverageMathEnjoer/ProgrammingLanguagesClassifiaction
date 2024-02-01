@@ -1,0 +1,1 @@
+b'module Event where\n\ndata Event\n  = Message String\n  | Open\n  | Close\n  | Render\n  | Sound String\n  | Start\n  | Finished\n  | Init Int\n  | Finish Int\n  deriving (Show, Eq)\n'

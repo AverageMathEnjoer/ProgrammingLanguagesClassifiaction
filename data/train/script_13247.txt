@@ -1,0 +1,1 @@
+b'package com.zzg.mybatis.generator;\n\nimport javafx.application.Application;\n\n/**\n * @author \xe6\xac\xa7\xe9\x97\xbb\n * @version $Id: Main, v 0.1 2021/4/20 \xe6\xac\xa7\xe9\x97\xbb Exp $$\n */\npublic class Main {\n\n    public static void main(String[] args) {\n        Application.launch(MainUI.class);\n    }\n\n}\n'

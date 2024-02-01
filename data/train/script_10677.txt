@@ -1,0 +1,1 @@
+b'module Main where\n\nimport Test.Tasty (defaultMain, testGroup)\n\nimport Test.Property (okTestTree)\nimport Test.Unit (hspecTestTree)\n\nmain :: IO ()\nmain = hspecTestTree >>= \\unitTests ->\n       let allTests = testGroup "Parser" $ [unitTests] ++ okTestTree\n       in defaultMain allTests\n'

@@ -1,0 +1,1 @@
+b'module Cachix.Types.DeployResponse.V1 where\n\nimport Data.Aeson\n  ( FromJSON,\n    ToJSON,\n  )\nimport Data.HashMap.Strict\nimport Data.Swagger (ToSchema)\nimport Protolude\n\nnewtype DeployResponse = DeployResponse\n  { agents :: HashMap Text Text\n  }\n  deriving stock (Show, Generic)\n  deriving anyclass (FromJSON, ToJSON, ToSchema, NFData)\n'

@@ -1,0 +1,1 @@
+b'library("testthat")\nlibrary("pryr")\n\ntest_check("pryr")\n'

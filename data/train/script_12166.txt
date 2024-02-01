@@ -1,0 +1,1 @@
+b'package com.ethanhua.skeleton;\n\n/**\n * Created by ethanhua on 2017/7/29.\n */\n\npublic interface SkeletonScreen {\n\n    void show();\n\n    void hide();\n}\n'

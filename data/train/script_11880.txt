@@ -1,0 +1,1 @@
+b'module Main where\nimport Data.List (unfoldr)\n\n\nfloydTriangle =\n  unfoldr (Just . nextFloyd) (1,1)\n  where nextFloyd (number, quantity) =\n          (take quantity [number..], (number+quantity, quantity+1))\n\n\nmain = do\n  putStr "Depth? "\n  depth <- read <$> getLine\n\n  let finiteTriangle = take depth floydTriangle\n\n  mapM_ (putStrLn . show) finiteTriangle'

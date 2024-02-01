@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfnamespace RonSijm.UCIEngineInterop.Models;\n\npublic record Evaluation(string Type, int Value);'

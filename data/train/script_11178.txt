@@ -1,0 +1,1 @@
+b'package effectivejava.chapter4.item23.hierarchy;\n\n// Class hierarchy replacement for a tagged class  (Page 110-11)\nclass Rectangle extends Figure {\n    final double length;\n    final double width;\n\n    Rectangle(double length, double width) {\n        this.length = length;\n        this.width  = width;\n    }\n    @Override double area() { return length * width; }\n}'

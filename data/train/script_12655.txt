@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing RonSijm.ButtFish.Devices;\n\nnamespace RonSijm.ButtFish.InputLoops;\n\npublic interface IInputLoop\n{\n    Task Start(IList<IDeviceAbstraction> devices);\n}'

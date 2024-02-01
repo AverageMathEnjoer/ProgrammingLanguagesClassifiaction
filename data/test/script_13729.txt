@@ -1,0 +1,1 @@
+b'package com.ethanhua.skeleton;\n\n/**\n * Instrumentation test, which will execute on an Android device.\n *\n * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>\n */\n\npublic class ExampleInstrumentedTest {\n\n    public void useAppContext() throws Exception {\n        // Context of the app under test.\n    }\n}\n'

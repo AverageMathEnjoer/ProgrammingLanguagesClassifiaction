@@ -1,0 +1,1 @@
+b'module Main where\n\nmain :: IO ()\nmain = putStrLn "Hello world"\n'

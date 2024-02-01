@@ -1,0 +1,1 @@
+b'module Control.Monad.Trans.Crtn.Event where\n\n-- | action order\nnewtype ActionOrder e = ActionOrder ((e -> IO ()) -> IO e)\n\n-- | event or action\ntype EvOrAct e = Either (ActionOrder e) e\n'

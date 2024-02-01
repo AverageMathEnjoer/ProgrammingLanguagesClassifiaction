@@ -1,0 +1,1 @@
+b'package com.droidcba.kedditbysteps.api\n\nimport kotlinx.coroutines.experimental.Deferred\nimport retrofit2.Call\n\n/**\n * News API\n *\n * @author juancho.\n */\ninterface NewsAPI {\n    fun getNewsOldApi(after: String, limit: String): Call<RedditNewsResponse>\n    suspend fun getNews(after: String, limit: String): Deferred<RedditNewsResponse>\n}'

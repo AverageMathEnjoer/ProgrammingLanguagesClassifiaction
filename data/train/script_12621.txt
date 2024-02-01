@@ -1,0 +1,1 @@
+b'package effectivejava.chapter4.item23.hierarchy;\n\n// Class hierarchy replacement for a tagged class  (Page 110-11)\nclass Square extends Rectangle {\n    Square(double side) {\n        super(side, side);\n    }\n}\n'

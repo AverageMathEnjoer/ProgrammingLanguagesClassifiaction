@@ -1,0 +1,1 @@
+b'\nmodule Main\n(\n  main\n)\nwhere\n\nimport qualified Test.UnicodeCMap\nimport qualified Test.Parser\nimport qualified Test.FontDescriptor\n\nimport Test.Hspec\n\nmain :: IO ()\nmain = hspec $ do\n  Test.UnicodeCMap.spec\n  Test.Parser.spec\n  Test.FontDescriptor.spec\n'

@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\nusing Core.Entities.Concrete;\n\nnamespace Core.Utilities.Security.Jwt\n{\n    public interface ITokenHelper\n    {\n        AccessToken CreateToken(User user, List<OperationClaim> operationClaims);\n    }\n}\n'

@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.Utilities.Results\n{\n    public class ErrorResult:Result\n    {\n        public ErrorResult(string message) : base(false, message)\n        {\n        }\n\n        public ErrorResult() : base(false)\n        {\n        }\n    }\n}\n'

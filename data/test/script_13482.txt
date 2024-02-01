@@ -1,0 +1,1 @@
+b'package net.println.kt12\n\nimport java.io.File\n\n/**\n * Created by benny on 12/1/16.\n */\nfun main(args: Array<String>) {\n    val json = File("result_singer_field_loss.json").readText()\n    val result : BaseResult<Singer> = ApiFactory.api.getSingerFromJson(json)\n    println(result.content.name.isEmpty())\n}'

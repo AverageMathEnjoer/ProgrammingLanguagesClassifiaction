@@ -1,0 +1,1 @@
+b'module Main (\n  main\n) where\n\nimport Network.Server.Chat.Chat\n\nmain :: IO a\nmain = chat\n'

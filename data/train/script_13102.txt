@@ -1,0 +1,1 @@
+b'import Data.List\r\n\r\nmaxtail :: Ord a => [a] -> [a]\r\nmaxtail = foldl op []\r\n\r\nop :: Ord a => [a] -> a -> [a]\r\nop ys x = maximum [zs ++ [x] | zs <- tails ys]\r\n'

@@ -1,0 +1,1 @@
+b'package com.droidcba.kedditbysteps.features.news\n\nimport com.droidcba.kedditbysteps.commons.RedditNews\n\n/**\n * @author juan.saravia\n */\nsealed class NewsState {\n    class Success(val redditNews: RedditNews) : NewsState()\n    class Error(val message: String?) : NewsState()\n}'

@@ -1,0 +1,1 @@
+b'package net.println.kotlin.mybatis\n\nimport net.println.kotlin.mybatis.annotations.PoKo\n\n/**\n * Created by benny on 3/25/17.\n */\n@PoKo\ndata class User (var id: Int, var username: String = "", var age: Int, var passwd: String = "")\n\nfun main(args: Array<String>) {\n    //println(User::class.java.newInstance())\n}'

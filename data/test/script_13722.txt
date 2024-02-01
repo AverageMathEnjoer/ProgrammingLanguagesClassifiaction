@@ -1,0 +1,1 @@
+b'package net.println.kt03\n\n/**\n * Created by benny on 10/11/16.\n */\ndata class User(val id : Int, val name : String) {\n\n}'

@@ -1,0 +1,1 @@
+b'\n-- | Use a RNG transformer on top of LVish.\n\nmodule LVishPlusRNG\n       (\n         runPar,\n         module Control.Par.Class \n       ) where\n\nimport qualified Control.LVish as L \nimport Control.Par.Class\nimport Control.Par.RngT\n\n-- UNFINISHED:\nrunPar = \n'

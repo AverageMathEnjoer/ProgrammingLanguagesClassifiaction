@@ -1,0 +1,1 @@
+b'package com.db.williamchart\n\nimport android.graphics.Canvas\nimport android.graphics.Paint\nimport com.db.williamchart.data.Label\n\ninterface Labels {\n    fun draw(canvas: Canvas, paint: Paint, xLabels: List<Label>)\n}\n'

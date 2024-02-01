@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfnamespace DMSkinDemo.View\n{\n    public partial class PageColors\n    {\n        public PageColors()\n        {\n            InitializeComponent();\n        }\n    }\n}\n'

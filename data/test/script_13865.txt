@@ -1,0 +1,1 @@
+b'package effectivejava.chapter4.item23.hierarchy;\n\n// Class hierarchy replacement for a tagged class  (Page 110-11)\nabstract class Figure {\n    abstract double area();\n}\n'

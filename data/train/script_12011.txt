@@ -1,0 +1,1 @@
+b'module Data.Vec where\n\ndata Vec a = Vec a a a\n\n(\xe3\x83\xbb) :: Vec a -> Vec a -> a\n(Vec ax ay az) \xe3\x83\xbb (Vec bx by bz) = undefined\n\n(\xc3\x97) :: Vec a -> Vec a -> Vec a\n(Vec ax ay az) \xc3\x97 (Vec bx by bz) = undefined\n'

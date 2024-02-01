@@ -1,0 +1,1 @@
+b'package icu.nullptr.twifucker.data\n\ndata class TwitterItem(val key: String, var showing: Boolean)\n'

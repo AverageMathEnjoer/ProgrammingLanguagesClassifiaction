@@ -1,0 +1,1 @@
+b'package com.codeest.geeknews.model.event;\n\n/**\n * Created by codeest on 16/8/27.\n */\n\npublic class NightModeEvent {\n\n    private boolean isNightMode;\n\n    public void setNightMode(boolean nightMode) {\n        isNightMode = nightMode;\n    }\n\n    public boolean getNightMode() {\n        return isNightMode;\n    }\n}\n'

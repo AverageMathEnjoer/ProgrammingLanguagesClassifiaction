@@ -1,0 +1,1 @@
+b'package com.rd.draw.drawer.type;\n\nimport android.graphics.Paint;\nimport androidx.annotation.NonNull;\nimport com.rd.draw.data.Indicator;\n\nclass BaseDrawer {\n\n    Paint paint;\n    Indicator indicator;\n\n    BaseDrawer(@NonNull Paint paint, @NonNull Indicator indicator) {\n        this.paint = paint;\n        this.indicator = indicator;\n    }\n}\n'

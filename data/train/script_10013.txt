@@ -1,0 +1,1 @@
+b'# Create a file name\nfilen <- tempfile(pattern = "rgl") # or \n# filen <- paste("YOUR_DIR/rgl")\n\n# Generate a 3D plot using \'rgl\'\nx = y = seq(-10, 10, length = 20)\nz = outer(x, y, function(x, y) x^2 + y^2)\nrgl::persp3d(x, y, z, col = \'lightblue\')\n\n# Save the plot as a png\nrgl2png(file = filen)\n# Note that omitting \'file\' will save in current directory\n'

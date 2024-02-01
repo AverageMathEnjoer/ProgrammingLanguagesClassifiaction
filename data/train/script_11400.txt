@@ -1,0 +1,1 @@
+b"-- The Smallest Free Number\n\n-- Array-based Solution\n\nminfree :: [Integer] -> Integer\nminfree xs = head([0..] \\\\ xs)\n\n(\\\\) :: Eq a => [a] -> [a] -> [a]\nus \\\\ vs = filter (notElem' vs) us\n\nnotElem' :: Eq a => [a] -> a -> Bool\nnotElem' a n = notElem n a\n\n"

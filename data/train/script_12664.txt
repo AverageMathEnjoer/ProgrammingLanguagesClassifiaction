@@ -1,0 +1,1 @@
+b'library("testthat")\nlibrary("DESeq2")\ntest_check("DESeq2")\n'

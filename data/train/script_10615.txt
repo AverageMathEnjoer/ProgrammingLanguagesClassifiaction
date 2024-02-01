@@ -1,0 +1,1 @@
+b'package com.codeest.geeknews.di.qualifier;\n\nimport java.lang.annotation.Documented;\nimport java.lang.annotation.Retention;\n\nimport javax.inject.Qualifier;\n\nimport static java.lang.annotation.RetentionPolicy.RUNTIME;\n\n/**\n * Created by codeest on 2017/2/26.\n */\n\n@Qualifier\n@Documented\n@Retention(RUNTIME)\npublic @interface VtexUrl {\n\n}\n'

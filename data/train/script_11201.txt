@@ -1,0 +1,1 @@
+b'{-# LANGUAGE PackageImports #-}\n{-# LANGUAGE CPP #-}\n\nmodule Prelude\n(\n  module P,\n\n#if MIN_VERSION_base(4,11,0)\n#else\n  Semigroup(..),\n#endif\n)\nwhere\n\nimport "base" Prelude as P\n\n#if MIN_VERSION_base(4,11,0)\n#else\nimport Data.Semigroup(Semigroup(..))\n#endif\n'

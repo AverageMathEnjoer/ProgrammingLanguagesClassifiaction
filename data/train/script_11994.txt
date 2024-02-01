@@ -1,0 +1,1 @@
+b'module Main where\n\n-- {- Hint -}\n--\ninstance Num String where\n  a + b = a ++ b\n--   ...\n\nmain :: IO ()\nmain = do\n  putStrLn "May I have your name?"\n  name <- getLine\n  putStrLn $ "Congratulations, " + name + " has now mastered class Num!"\n\n--  {- Can you also make these work? -}\n--  putStrLn 5963\n--  putStrLn $ 3 * ("All hail " + name + "! ")\n'

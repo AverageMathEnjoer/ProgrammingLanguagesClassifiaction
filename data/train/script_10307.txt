@@ -1,0 +1,1 @@
+b'#include<cstdio>\n\nint main() {\n  int a, b;\n  while(scanf("%d%d", &a, &b) == 2) printf("%d\\n", a+b);\n  return 0;\n}\n'

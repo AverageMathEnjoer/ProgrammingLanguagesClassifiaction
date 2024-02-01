@@ -1,0 +1,1 @@
+b'package com.codeest.geeknews.base;\r\n\r\n/**\r\n * Created by codeest on 2016/8/2.\r\n * Presenter\xe5\x9f\xba\xe7\xb1\xbb\r\n */\r\npublic interface BasePresenter<T extends BaseView>{\r\n\r\n    void attachView(T view);\r\n\r\n    void detachView();\r\n}\r\n'

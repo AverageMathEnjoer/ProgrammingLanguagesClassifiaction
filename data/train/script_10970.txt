@@ -1,0 +1,1 @@
+b'package com.bennyhuo.kotlin.scheduledtask\n\ninterface UpdateTask {\n\n    fun scheduleUpdate(interval: Long)\n\n    fun cancel()\n\n}\n\n'

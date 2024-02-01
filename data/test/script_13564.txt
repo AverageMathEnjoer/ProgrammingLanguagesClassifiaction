@@ -1,0 +1,1 @@
+b'package net.println.kt15\n\n/**\n * Created by benny on 12/17/16.\n */\nfun main(args: Array<String>) {\n    val dataClass = DataClass()\n    dataClass.id = 0\n    println(dataClass.id)\n}'

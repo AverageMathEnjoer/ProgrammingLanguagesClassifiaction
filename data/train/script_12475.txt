@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\nusing Core.Utilities.Results;\nusing Entities.Concrete;\n\nnamespace Business.Abstract\n{\n    public interface ICategoryService\n    {\n        IDataResult<List<Category>> GetList();\n    }\n}\n'

@@ -1,0 +1,1 @@
+b'module Main where\n\nimport           Test.Tasty\n\nimport qualified Database.Beam.Test.Schema as Schema\nimport qualified Database.Beam.Test.SQL as SQL\n\nmain :: IO ()\nmain = defaultMain (testGroup "beam-core tests"\n                              [ Schema.tests\n                              , SQL.tests ])\n'

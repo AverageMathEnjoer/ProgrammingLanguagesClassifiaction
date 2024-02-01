@@ -1,0 +1,1 @@
+b'package com.droidcba.kedditbysteps.commons.adapter\n\nobject AdapterConstants {\n    val NEWS = 1\n    val LOADING = 2\n}'

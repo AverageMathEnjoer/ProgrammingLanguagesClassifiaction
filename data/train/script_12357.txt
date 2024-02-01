@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System.Windows;\n\nnamespace CyanDesignDemo\n{\n    public partial class MainWindow\n    {\n        public MainWindow()\n        {\n            InitializeComponent();\n        }\n    }\n}\n'

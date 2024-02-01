@@ -1,0 +1,1 @@
+b'package effectivejava.chapter9.item61;\n\n// What does this program do? - Page 274\npublic class Unbelievable {\n    static Integer i;\n\n    public static void main(String[] args) {\n        if (i == 42)\n            System.out.println("Unbelievable");\n    }\n}'

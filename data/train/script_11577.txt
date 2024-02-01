@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\nusing Core.Entities;\n\nnamespace Core.Entities.Concrete\n{\n    public class UserOperationClaim:IEntity\n    {\n        public int Id { get; set; }\n        public int UserId { get; set; }\n        public int OperationClaimId { get; set; }\n\n    }\n}\n'

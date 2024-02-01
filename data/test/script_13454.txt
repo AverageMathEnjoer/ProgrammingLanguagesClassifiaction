@@ -1,0 +1,1 @@
+b'-- Haskell\n-- real    0m0.293s\n\nmodule Main where\n\npowerset :: [a] -> [[a]]\npowerset [] = [[]]\npowerset (elem:remaining) =\n  let subpowersets = powerset remaining\n  in  map (elem:) subpowersets ++ subpowersets\n\nmain :: IO ()\nmain = do\n  putStrLn . show . length $ powerset [1..max]\n  where max = 21'

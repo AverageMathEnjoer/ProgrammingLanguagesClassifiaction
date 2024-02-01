@@ -1,0 +1,1 @@
+b'module Main where\n\nimport Protolude\nimport qualified Spec\nimport Test.Hspec.Runner\n\nmain :: IO ()\nmain = hspecWith config Spec.spec\n  where\n    config =\n      defaultConfig\n        { configColorMode = ColorAlways\n        }\n'

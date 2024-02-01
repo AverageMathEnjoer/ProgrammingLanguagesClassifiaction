@@ -1,0 +1,1 @@
+b'package com.rengwuxian.materialedittext.sample;\n\nimport android.app.Application;\nimport android.test.ApplicationTestCase;\n\n/**\n * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>\n */\npublic class ApplicationTest extends ApplicationTestCase<Application> {\n  public ApplicationTest() {\n    super(Application.class);\n  }\n}'

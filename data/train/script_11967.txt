@@ -1,0 +1,1 @@
+b'package co.joebirch.composeplayground.graphics\n\nimport co.joebirch.composeplayground.Category\nimport co.joebirch.composeplayground.ComposableLayout\n\nsealed class Graphics(\n    override val label: String,\n    override val intent: ComposableLayout? = null\n): Category(label) {\n\n    object Heading: Graphics("Graphics")\n    object Color: Graphics("Color", ColorView)\n\n}'

@@ -1,0 +1,1 @@
+b'\xef\xbb\xbf#load "scripts/load-references-debug.fsx"\n#load "CustomerRepository.fs"\n\nlet scriptConnectionString = "Server=(localdb)\\MSSQLLocalDb;Database=AdventureWorksLT;Integrated Security=SSPI"\n\nCustomerRepository.printCustomers(scriptConnectionString)\n'

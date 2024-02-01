@@ -1,0 +1,1 @@
+b"\n.onAttach <- function(libname, pkgname) {\n   packageStartupMessage(\n      '\\n\\n\\n\\n\\n*********************\\n\\n\\n\\nLatest version of polyreg at GitHub.com/matloff.')\n}\n\n"

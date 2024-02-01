@@ -1,0 +1,1 @@
+b'package effectivejava.chapter3.item13;\n\npublic class EmptyStackException extends IllegalStateException {\n}\n'

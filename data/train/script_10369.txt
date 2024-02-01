@@ -1,0 +1,1 @@
+b'package net.println.kt12\n\nimport com.google.gson.Gson\n\ninline fun <reified T: Any> Gson.fromJson(json: String): T{\n    return fromJson(json, T::class.java)\n}'

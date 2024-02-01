@@ -1,0 +1,1 @@
+b'\xef\xbb\xbf#I @"..\\packages\\"\n#r @"Humanizer.Core.2.1.0\\lib\\netstandard1.0\\Humanizer.dll"\n#r @"Newtonsoft.Json.9.0.1\\lib\\net45\\Newtonsoft.Json.dll"\n#load "Library1.fs"\n\n//#load @"Scripts\\load-project-debug.fsx"\n\nopen Humanizer\n"ScriptsAreAGreatWayToExplorePackages".Humanize(LetterCasing.AllCaps)\n\nLibrary1.getPerson()\n'

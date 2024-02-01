@@ -1,0 +1,1 @@
+b'package icu.nullptr.twifucker.exceptions\n\nclass CachedHookNotFound : Throwable("cached hook not found")\n'

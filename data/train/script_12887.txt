@@ -1,0 +1,1 @@
+b'package com.naman14.timber.widgets.desktop;\n\nimport com.naman14.timber.R;\n\n/**\n * Created by nv95 on 11.11.16.\n */\n\npublic class WhiteWidget extends StandardWidget {\n\n    @Override\n    int getLayoutRes() {\n        return R.layout.widget_white;\n    }\n}\n'

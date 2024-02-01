@@ -1,0 +1,1 @@
+b'using System;\nusing System.IO;\n\nnamespace Asn1 {\n\npublic class AsnException : IOException {\n\n\tpublic AsnException(string message)\n\t\t: base(message)\n\t{\n\t}\n\n\tpublic AsnException(string message, Exception nested)\n\t\t: base(message, nested)\n\t{\n\t}\n}\n\n}\n'

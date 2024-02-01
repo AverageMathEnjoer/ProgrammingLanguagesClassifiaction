@@ -1,0 +1,1 @@
+b'module Rest.Gen.Base (module X) where\n\nimport Rest.Gen.Base.ActionInfo as X\nimport Rest.Gen.Base.ActionInfo.Ident as X (Ident (Ident, description))\nimport Rest.Gen.Base.ApiTree as X\nimport Rest.Gen.Base.Link as X\n'

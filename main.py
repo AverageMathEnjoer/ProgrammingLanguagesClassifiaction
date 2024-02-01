@@ -1,8 +1,12 @@
+import Model
 import DataPreparator
+from catboost import CatBoostClassifier
+import pandas as pd
 
 if __name__ == '__main__':
-    text_base = DataPreparator.Data("config.json")
-    a = text_base.transform_data()
-    print(text_base.test)
+    model = Model.Classifier(json_file_path="config.json")
+    model.contest_solution("solution")
+
+
 
 

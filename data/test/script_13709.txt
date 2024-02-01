@@ -1,0 +1,1 @@
+b'{-# LANGUAGE OverloadedStrings #-}\nimport Data.Monoid  ((<>))\nimport qualified Data.Text    as T\nimport qualified Data.Text.IO as T\n\nmain :: IO ()\nmain = do\n  name <- T.getLine\n  T.putStrLn $ "Hello, " <> name\n  putStrLn "This is String"\n\n\n'

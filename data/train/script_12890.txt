@@ -1,0 +1,1 @@
+b'module Main where\n\nimport Lib\n\nmain :: IO ()\nmain = someFunc\n'

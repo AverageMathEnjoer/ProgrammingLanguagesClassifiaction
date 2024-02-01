@@ -1,0 +1,1 @@
+b'package com.db.williamchart.data\n\ndata class DataPoint(\n    val label: String,\n    val value: Float,\n    var screenPositionX: Float = 0f,\n    var screenPositionY: Float = 0f\n)\n'

@@ -1,0 +1,1 @@
+b'library(template)\n\ncontext("Fake test")\n\ntest_that("examplefunction can be run", {\n  output <- examplefunction("testing")\n  expect_match(output, "testing")\n})\n'

@@ -1,0 +1,1 @@
+b'package lyons.dao;\n\n/**\n * \n * Classify.xml \xb6\xd4\xd3\xa6\xb5\xc4\xbd\xd3\xbf\xda\n * \n * @author lyons(zhanglei)\n * \n */\npublic interface GoodsClassifyDao\n{\n    \n}\n'

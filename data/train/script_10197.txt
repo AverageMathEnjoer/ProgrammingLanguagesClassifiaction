@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\n\nnamespace BaiduPanDownload.Data\n{\n    class SpaceInfo\n    {\n        public long quota { get; set; }\n        public long used { get; set; }\n        public long request_id { get; set; }\n\n    }\n}\n'

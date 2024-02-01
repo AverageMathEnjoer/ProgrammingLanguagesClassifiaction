@@ -1,0 +1,1 @@
+b'package net.println.kt03\n\n/**\n * Created by benny on 10/11/16.\n */\nobject HelloJava {\n    @JvmStatic fun main(args: Array<String>) {\n        val user = User(0, "bennyhuo")\n        println(user)\n    }\n}\n'

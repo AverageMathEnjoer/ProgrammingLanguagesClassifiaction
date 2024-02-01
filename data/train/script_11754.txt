@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.Utilities.Security.Jwt\n{\n    public class AccessToken\n    {\n        public string Token { get; set; }\n        public DateTime Expiration { get; set; }\n\n    }\n}\n'

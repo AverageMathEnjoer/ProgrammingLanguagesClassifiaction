@@ -1,0 +1,1 @@
+b'\n-- A Surpassing Problem\n--\n\n\n\nmsc xs = maximum [scount z zs | z : zs <- tails xs]\n\nscount x xs = length(filter(x < ) xs)\n\ntails [] = []\ntails (x:xs) = (x:xs) : tails xs\n'

@@ -1,0 +1,1 @@
+b'package lyons.service;\n\n/**\n * \n *\xb9\xab\xb9\xb2\xb7\xfe\xce\xf1\xbd\xd3\xbf\xda\xc0\xe0\n *\n * @author  lyons(zhanglei)\n * \n */\npublic interface publicService\n{\n    \n}\n'

@@ -1,0 +1,1 @@
+b'package com.kyleduo.switchbutton.switchbutton;\n\nimport android.app.Application;\nimport android.test.ApplicationTestCase;\n\n/**\n * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>\n */\npublic class ApplicationTest extends ApplicationTestCase<Application> {\n\tpublic ApplicationTest() {\n\t\tsuper(Application.class);\n\t}\n}'

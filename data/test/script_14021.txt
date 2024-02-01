@@ -1,0 +1,1 @@
+b'// Copyright (c) 2022 Manuel Schneider\n\n#include "albert/extensions/frontend.h"\n#include "queryengine.h"\nusing namespace albert;\nusing namespace std;\n\nshared_ptr<Query> Frontend::query(const QString &query) const\n{\n    return query_engine->query(query);\n}\n\nvoid Frontend::setEngine(QueryEngine *engine)\n{\n    query_engine = engine;\n}\n'

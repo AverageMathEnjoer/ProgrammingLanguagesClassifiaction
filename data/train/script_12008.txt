@@ -1,0 +1,1 @@
+b'package org.sang.utils;\n\nimport org.sang.bean.User;\nimport org.springframework.security.core.context.SecurityContextHolder;\n\n/**\n * Created by sang on 2017/12/20.\n */\npublic class Util {\n    public static User getCurrentUser() {\n        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();\n        return user;\n    }\n}\n'

@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.Entities\n{\n    public interface IEntity\n    {\n    }\n}\n'

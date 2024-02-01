@@ -1,0 +1,1 @@
+b'-- | Module facilitating informative inspection of datatypes.\nmodule Rest.Info (module Rest.Types.Info) where\n\nimport Rest.Types.Info\n'

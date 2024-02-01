@@ -1,0 +1,1 @@
+b'package com.db.williamchart.extensions\n\nimport android.graphics.Canvas\nimport android.graphics.Paint\nimport android.graphics.RectF\n\nfun Canvas.drawChartBar(bar: RectF, radius: Float, paint: Paint) {\n    drawRoundRect(bar, radius, radius, paint)\n}\n'

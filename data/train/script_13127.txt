@@ -1,0 +1,1 @@
+b'package effectivejava.chapter4.item25;\n\n//  (Page 115)\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(Utensil.NAME + Dessert.NAME);\n    }\n}'

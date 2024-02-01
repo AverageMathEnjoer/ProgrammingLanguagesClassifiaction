@@ -1,0 +1,1 @@
+b'// Global using directives\n\nglobal using System;\nglobal using System.Collections.Generic;\nglobal using System.Diagnostics;\nglobal using System.Linq;\nglobal using RonSijm.UCIEngineInterop.Exceptions;\nglobal using RonSijm.UCIEngineInterop.Models;'

@@ -1,0 +1,1 @@
+b'package net.println.kt13.module\n\nimport com.google.gson.Gson\nimport dagger.Module\nimport dagger.Provides\nimport javax.inject.Singleton\n\n/**\n * Created by benny on 12/11/16.\n */\n@Module\nclass GsonModule {\n\n    @Singleton @Provides fun gson(): Gson = Gson()\n}'

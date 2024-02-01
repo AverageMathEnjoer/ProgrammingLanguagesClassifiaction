@@ -1,0 +1,1 @@
+b'module Hoodle.Type\n  ( module Hoodle.Type.Canvas,\n    module Hoodle.Type.Coroutine,\n    module Hoodle.Type.Enum,\n    module Hoodle.Type.Event,\n    module Hoodle.Type.HoodleState,\n  )\nwhere\n\nimport Hoodle.Type.Canvas\nimport Hoodle.Type.Coroutine\nimport Hoodle.Type.Enum\nimport Hoodle.Type.Event\nimport Hoodle.Type.HoodleState\n'

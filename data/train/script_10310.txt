@@ -1,0 +1,1 @@
+b'module Data.Hoodle.Util (fst3, snd3, trd3) where\n\n-- |\nfst3 :: (a, b, c) -> a\nfst3 (x, _, _) = x\n\n-- |\nsnd3 :: (a, b, c) -> b\nsnd3 (_, y, _) = y\n\n-- |\ntrd3 :: (a, b, c) -> c\ntrd3 (_, _, z) = z\n'

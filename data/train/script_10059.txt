@@ -1,0 +1,1 @@
+b'context("collapse")\ntest_that("collapse replicates works", {\n  dds <- makeExampleDESeqDataSet(n=10, m=8)\n  dds$sample <- rep(1:4, each=2)\n  dds$run <- 1:8\n  dds2 <- collapseReplicates(dds, groupby=dds$sample, run=dds$run)\n  expect_true(all(counts(dds2)[,1] == rowSums(counts(dds)[,1:2])))\n  expect_true(dds2$runsCollapsed[1] == "1,2")\n})\n'

@@ -1,0 +1,1 @@
+b'package lyons.dao;\n\npublic class GoodsClassifyDaoImpl\n{\n    \n}\n'

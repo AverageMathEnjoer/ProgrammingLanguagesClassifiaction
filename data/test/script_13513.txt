@@ -1,0 +1,1 @@
+b'\nexpect_same <- function(x) {\n  base <- as.vector(object.size(x))\n  pryr <- as.vector(object_size(x))\n\n  expect_equal(base, pryr)\n}\n'

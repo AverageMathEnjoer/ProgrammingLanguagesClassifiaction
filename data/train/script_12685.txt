@@ -1,0 +1,1 @@
+b'package com.quyunshuo.androidbaseframemvvm.base.constant\n\n/**\n * \xe7\x89\x88\xe6\x9c\xac\xe7\x8a\xb6\xe6\x80\x81\n *\n * @author Qu Yunshuo\n * @since 4/20/21 9:05 AM\n */\nobject VersionStatus {\n\n    const val RELEASE = "VERSION_STATUS_RELEASE"\n\n    const val ALPHA = "VERSION_STATUS_ALPHA"\n\n    const val BETA = "VERSION_STATUS_BETA"\n}'

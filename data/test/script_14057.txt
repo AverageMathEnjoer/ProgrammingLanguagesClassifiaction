@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\nusing Core.Entities.Concrete;\nusing Entities.Concrete;\n\nnamespace Business.Abstract\n{\n    public interface IUserService\n    {\n        List<OperationClaim> GetClaims(User user);\n        void Add(User user);\n        User GetByMail(string email);\n    }\n}\n'

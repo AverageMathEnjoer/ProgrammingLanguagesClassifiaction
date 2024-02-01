@@ -1,0 +1,1 @@
+b'module Main\n(\n  main\n) where\n\nimport Network.Server.TicTacToe.Game\n\nmain ::\n  IO ()\nmain =\n  play\n'

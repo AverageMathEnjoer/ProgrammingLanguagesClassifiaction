@@ -1,0 +1,1 @@
+b'package effectivejava.chapter5.item31;\n\npublic class EmptyStackException extends RuntimeException {\n}\n'

@@ -1,0 +1,1 @@
+b'#include<iostream>\n#include<algorithm>\nusing namespace std;\n\nint main() {\n  long long a, b;\n  while(cin >> a >> b) {\n    cout << min(a,b) << "\\n";\n  }\n  return 0;\n}\n'

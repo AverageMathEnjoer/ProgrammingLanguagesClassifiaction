@@ -1,0 +1,1 @@
+b'global using Xunit;\nglobal using FluentAssertions;\nglobal using RonSijm.ButtFish.Ascii;'

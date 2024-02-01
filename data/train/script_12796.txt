@@ -1,0 +1,1 @@
+b'module Network.Server.TicTacToe\n(\n  module Network.Server.TicTacToe.Game\n, module Network.Server.TicTacToe.Loop\n) where\n\nimport Network.Server.TicTacToe.Game\nimport Network.Server.TicTacToe.Loop\n'

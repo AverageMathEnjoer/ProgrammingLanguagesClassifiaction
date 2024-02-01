@@ -1,0 +1,1 @@
+b'import Data.Array\n\ncountlist :: [Int] -> Array Int Int\n\ncountlist xs = accumArray (+) 0 (0, n) (zip xs (repeat 1)) \n    where n = length xs\n\nsort xs = concat [replicate k x | (x,k) <- assocs (countlist xs)]\n'

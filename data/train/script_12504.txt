@@ -1,0 +1,1 @@
+b'package effectivejava.chapter4.item25;\n\n// Two classes defined in one file. Don\'t ever do this!  (Page 115)\nclass Utensil {\n    static final String NAME = "pan";\n}\n\nclass Dessert {\n    static final String NAME = "cake";\n}\n'

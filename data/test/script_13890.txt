@@ -1,0 +1,1 @@
+b'import "hint" HLint.HLint\n\nignore "Redundant bracket" = Data.MonadicStreamFunction\nignore "Eta reduce"        = Control.Monad.Trans.MStreamF.transG1\n'

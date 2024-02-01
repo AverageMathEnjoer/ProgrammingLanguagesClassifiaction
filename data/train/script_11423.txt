@@ -1,0 +1,1 @@
+b'package io.github.javiewer.fragment;\n\nimport io.github.javiewer.JAViewer;\nimport okhttp3.ResponseBody;\nimport retrofit2.Call;\n\n/**\n * Project: JAViewer\n */\npublic class ReleasedFragment extends MovieFragment {\n    @Override\n    public Call<ResponseBody> newCall(int page) {\n        return JAViewer.SERVICE.getReleased(page);\n    }\n}\n'

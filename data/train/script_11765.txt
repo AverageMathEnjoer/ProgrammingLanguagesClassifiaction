@@ -1,0 +1,1 @@
+b'module Cachix.Client.Version where\n\nimport Data.Version (showVersion)\nimport Paths_cachix (version)\nimport Protolude\n\ncachixVersion :: Text\ncachixVersion = "cachix " <> versionNumber\n\nversionNumber :: Text\nversionNumber = toS $ showVersion version\n'

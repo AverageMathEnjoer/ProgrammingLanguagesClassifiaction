@@ -1,0 +1,1 @@
+b'package id.zelory.compressor.constraint\n\nclass Compression {\n    internal val constraints: MutableList<Constraint> = mutableListOf()\n\n    fun constraint(constraint: Constraint) {\n        constraints.add(constraint)\n    }\n}'

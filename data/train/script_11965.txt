@@ -1,0 +1,1 @@
+b'package effectivejava.chapter2.item8;\n\n// Well-behaved client of resource with cleaner safety-net (Page 33)\npublic class Adult {\n    public static void main(String[] args) {\n        try (Room myRoom = new Room(7)) {\n            System.out.println("Goodbye");\n        }\n    }\n}\n'

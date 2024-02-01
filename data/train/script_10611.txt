@@ -1,0 +1,1 @@
+b'module Cachix.Types.Permission where\n\nimport Data.Aeson (FromJSON, ToJSON)\nimport Data.Swagger (ToSchema)\nimport Protolude\n\ndata Permission = Read | Write | Admin\n  deriving (Generic, Show, FromJSON, ToJSON, ToSchema, NFData, Eq, Ord)\n'

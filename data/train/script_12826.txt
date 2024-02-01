@@ -1,0 +1,1 @@
+b'package net.println.kt14internal\n\n/**\n * Created by benny on 12/17/16.\n */\nfun main(args: Array<String>) {\n//    val internalClass = InternalClass()\n//    internalClass.printHello()\n}\n'

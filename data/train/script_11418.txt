@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfnamespace RonSijm.ButtFish.Devices;\n\npublic interface IDeviceAbstraction : IDisposable\n{\n    Task SendDuration(int time);\n}'

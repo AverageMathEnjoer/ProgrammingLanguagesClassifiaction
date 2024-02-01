@@ -1,0 +1,1 @@
+b'// UVa10491 Cows and Cars\n// Rujia Liu\n#include<cstdio>\nint main() {\n  int a, b, c;\n  while(scanf("%d%d%d", &a, &b, &c) == 3)\n    printf("%.5lf\\n", (double)(a*b+b*(b-1)) / (a+b) / (a+b-c-1));\n  return 0;\n}\n'

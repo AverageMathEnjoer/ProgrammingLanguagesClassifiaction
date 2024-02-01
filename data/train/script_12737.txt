@@ -1,0 +1,1 @@
+b'package effectivejava.chapter2.item4;\n\n// Noninstantiable utility class (Page 19)\npublic class UtilityClass {\n    // Suppress default constructor for noninstantiability\n    private UtilityClass() {\n        throw new AssertionError();\n    }\n\n    // Remainder omitted\n}\n'

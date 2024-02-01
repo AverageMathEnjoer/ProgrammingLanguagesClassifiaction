@@ -1,0 +1,1 @@
+b'package com.db.williamchart.data\n\ndata class DonutDataPoint(\n    val value: Float,\n    var screenDegrees: Float = 0f\n)\n'

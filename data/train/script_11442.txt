@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System.Windows.Controls;\n\nnamespace DMSkinDemo.View\n{\n    public partial class PageStorage\n    {\n        public PageStorage()\n        {\n            InitializeComponent();\n        }\n    }\n}\n'

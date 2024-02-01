@@ -1,0 +1,1 @@
+b'val kotlinVersion = "1.6.0"\nval kotlinCoroutineVersion = "1.6.0-RC"\nval kotlinDateTimeVersion = "0.3.1"'

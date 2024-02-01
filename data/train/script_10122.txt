@@ -1,0 +1,1 @@
+b'package net.println.kt11\n\n/**\n * Created by benny on 11/27/16.\n */\nsealed class PlayerCmd {\n    class Play(val url: String, val position: Long = 0): PlayerCmd()\n\n    class Seek(val position: Long): PlayerCmd()\n\n    object Pause: PlayerCmd()\n\n    object Resume: PlayerCmd()\n\n    object Stop: PlayerCmd()\n}'

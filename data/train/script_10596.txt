@@ -1,0 +1,1 @@
+b'import Test.QuickCheck\n\nbothBig :: Integer -> Integer -> Bool\nbothBig x y = x>=2 && y>=2\n\nmain :: IO ()\nmain = do\n  quickCheck (\\x y -> bothBig x y ==> x*y /= 7)\n  quickCheck (\\x y -> bothBig x y ==> x*y /= 8)\n'

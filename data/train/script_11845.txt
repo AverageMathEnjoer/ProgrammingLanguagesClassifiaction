@@ -1,0 +1,1 @@
+b'// UVa10213 How Many Pieces of Land?\n// Rujia Liu\n#include<cstdio>\nint main() {\n  int n, T;\n  scanf("%d", &T);\n  while(T--) {\n    scanf("%d", &n);\n    int V = 0, E = 0;\n    for(int i = 0; i <= n-2; i++)\n      V += i*(n-2-i), E += i*(n-2-i)+1;\n    V = V*n/4+n;\n    E = E*n/2+n;\n    printf("%d\\n", E-V+1);\n  }\n  return 0;\n}\n'

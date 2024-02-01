@@ -1,0 +1,1 @@
+b'// Sample application entry point\nlet main argv =\n    printfn "%A" argv\n    0 // return an integer exit code\n\n// Creating an array of items\nlet items = [| "item"; "item"; "item"; "item" |]\n\n[<EntryPoint>]\nlet enhancedMain argv =     \n    let items = argv.Length     \n    printfn "Passed in %d items: %A" items argv     \n    0 // return an integer exit code \n\n'

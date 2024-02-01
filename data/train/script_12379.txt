@@ -1,0 +1,1 @@
+b'module Main (main) where\n\nimport           System.FilePath.Glob (glob)\nimport           Test.DocTest         (doctest)\n\nmain :: IO ()\nmain = do\n  glob "src/**/*.hs" >>= doctest\n'

@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\n\nnamespace BaiduPanDownload.Data\n{\n    class SuperFile\n    {\n        public string[] block_list { get; set; }\n    }\n}\n'

@@ -1,0 +1,1 @@
+b'module Small (\n    Small(..)\n  , module Test.Hspec\n  , module Test.Hspec.QuickCheck\n  , module Test.QuickCheck\n  ) where\n\nimport Control.Applicative\nimport Test.Hspec\nimport Test.Hspec.QuickCheck\nimport Test.QuickCheck hiding (Small)\n\nnewtype Small = Small Integer deriving Show\n\ninstance Arbitrary Small where\n    arbitrary = Small . (`mod` 10) <$> arbitrary\n'

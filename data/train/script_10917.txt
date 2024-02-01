@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.Entities.Concrete\n{\n    public class OperationClaim\n    {\n        public int Id { get; set; }\n        public string Name { get; set; }\n    }\n}\n'

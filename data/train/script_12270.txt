@@ -1,0 +1,1 @@
+b'const int M = 1e6+3;\nint pr[M];\n//pr[6] = 2 and not 3\nvoid pre()\n{\n\tint i;\n\tpr[1] = 1; pr[2] = 2;\n\tfo(i, M) pr[i] = i;\n\tfor(i=2; i<M; i++){\n\t\tif (pr[i] != i) continue;\n\t\tfor(int j = 2*i; j<M; j+=i){\n\t\t\tif (pr[j] == j)\n\t\t\t\tpr[j] = i;\n\t\t}\n\t}\n}\n\n'

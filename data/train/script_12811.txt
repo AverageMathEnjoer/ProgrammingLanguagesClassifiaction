@@ -1,0 +1,1 @@
+b'#include<iostream>\n#include<string>\n#include<sstream>\nusing namespace std;\n\nint main() {\n  string line;\n  while(getline(cin, line)) {\n    int sum = 0, x;\n    stringstream ss(line);\n    while(ss >> x) sum += x;\n    cout << sum << "\\n";\n  }\n  return 0;\n}\n'

@@ -1,0 +1,1 @@
+b'// Listing 3.1\nlet currentTime = System.DateTime.UtcNow;;\ncurrentTime.TimeOfDay.ToString();;\n\n// Listing 3.2\nlet greetPerson name age =\n    sprintf "Hello, %s. You are %d years old" name age\n\nlet greeting = greetPerson "Fred" 25\n\n'

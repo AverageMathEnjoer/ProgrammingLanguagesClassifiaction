@@ -1,0 +1,1 @@
+b'module GameGenerator where\n\n'

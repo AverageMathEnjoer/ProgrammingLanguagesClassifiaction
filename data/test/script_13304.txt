@@ -1,0 +1,1 @@
+b'package com.db.williamchart.extensions\n\nimport android.content.res.TypedArray\nimport android.util.AttributeSet\nimport android.widget.FrameLayout\n\nfun FrameLayout.obtainStyledAttributes(attrsSet: AttributeSet?, attrsId: IntArray): TypedArray {\n    return context.theme.obtainStyledAttributes(attrsSet, attrsId, 0, 0)\n}\n'

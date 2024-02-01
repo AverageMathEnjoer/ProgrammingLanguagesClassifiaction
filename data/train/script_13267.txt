@@ -1,0 +1,1 @@
+b'package co.joebirch.composeplayground\n\nabstract class Category(open val label: String, open val intent: ComposableLayout? = null)'

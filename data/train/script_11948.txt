@@ -1,0 +1,1 @@
+b'package com.db.williamchart.data\n\nimport com.db.williamchart.renderer.RendererConstants.Companion.notInitialized\n\ndata class Scale(val min: Float, val max: Float) {\n    val size = max - min\n}\n\nfun Scale.notInitialized() = max == min && min == notInitialized\n'

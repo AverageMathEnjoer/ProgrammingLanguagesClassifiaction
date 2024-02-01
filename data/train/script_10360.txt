@@ -1,0 +1,1 @@
+b'module Cachix.Types.NixCacheInfo where\n\nimport Data.Aeson (FromJSON, ToJSON)\nimport Data.Swagger (ToSchema)\nimport Protolude\n\ndata NixCacheInfo = NixCacheInfo\n  { storeDir :: Text,\n    wantMassQuery :: Integer,\n    priority :: Integer\n  }\n  deriving (Generic, Show, FromJSON, ToJSON, ToSchema, NFData)\n'

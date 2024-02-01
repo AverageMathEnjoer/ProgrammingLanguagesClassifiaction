@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\nusing Core.Entities;\n\nnamespace Entities.Dtos\n{\n    public class UserForRegisterDto : IDto\n    {\n        public string Email { get; set; }\n        public string Password { get; set; }\n        public string FirstName { get; set; }\n        public string LastName { get; set; }\n    }\n}\n'

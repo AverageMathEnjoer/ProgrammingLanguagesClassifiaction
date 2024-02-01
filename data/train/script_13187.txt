@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.CrossCuttingConcerns.Logging.Log4Net.Loggers\n{\n    public class FileLogger : LoggerServiceBase\n    {\n        public FileLogger() : base("JsonFileLogger")\n        {\n        }\n    }\n}\n'

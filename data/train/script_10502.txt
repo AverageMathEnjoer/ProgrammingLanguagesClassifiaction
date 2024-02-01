@@ -1,0 +1,1 @@
+b'module Lib\n    ( someFunc\n    ) where\n\nsomeFunc :: IO ()\nsomeFunc = putStrLn "someFunc"\n'

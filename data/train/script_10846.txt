@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.Utilities.Results\n{\n    public interface IDataResult<out T>:IResult\n    {\n        T Data { get; }\n    }\n}\n'

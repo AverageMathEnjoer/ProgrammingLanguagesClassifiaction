@@ -1,0 +1,1 @@
+b'package com.bennyhuo.kotlin.ide\n\n/**\n * Created by benny at 2021/6/16 21:58.\n */\nclass Sample {\n}'

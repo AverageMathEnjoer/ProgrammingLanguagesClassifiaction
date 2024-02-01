@@ -1,0 +1,1 @@
+b'module ListInsertionSort (sort) where\n\n-- span (> 3) [4,5,4,1,4,7] == ([4,5,4],[1,4,7])\nsort :: [Int] -> [Int]  -- list sort\nsort = insS []\n  where\n    insS sl []     = sl\n    insS sl (x:xs) = let (lower, greater) = span (< x) sl\n                     in insS (lower ++ (x : greater)) xs\n'

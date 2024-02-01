@@ -1,0 +1,1 @@
+b'import Data.List\n\nxs = [7, 3, 1, 9, 5]\nys = [40, 20, 30, 60, 50]\n\ncmp :: Ord a => Num a => a -> a -> Ordering\ncmp x y = compare x y\n\nmain = putStrLn $ show $ sortBy cmp [x + y | x <- xs, y <- ys]\n\n'

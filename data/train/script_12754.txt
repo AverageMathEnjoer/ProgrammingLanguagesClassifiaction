@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfnamespace DMSkinDemo.Model\n{\n    public enum Menu\n    {\n        Null,\n        Colors,\n        Broadcast,\n        Storage\n    }\n}\n'

@@ -1,0 +1,1 @@
+b'package net.println.kotlin.realm\n\nimport io.realm.RealmObject\nimport io.realm.annotations.PrimaryKey\n\n@PoKo\ndata class User(@PrimaryKey var id: Int, var name: String) : RealmObject()'

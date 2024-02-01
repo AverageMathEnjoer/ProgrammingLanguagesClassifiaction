@@ -1,0 +1,1 @@
+b'package effectivejava.chapter11.item83;\n\npublic class FieldType {\n}\n'

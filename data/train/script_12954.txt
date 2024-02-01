@@ -1,0 +1,1 @@
+b'package effectivejava.chapter3.item14;\nimport java.util.*;\n\n// The benefits of implementing Comparable (Page 66)\npublic class WordList {\n    public static void main(String[] args) {\n        Set<String> s = new TreeSet<>();\n        Collections.addAll(s, args);\n        System.out.println(s);\n    }\n}\n'

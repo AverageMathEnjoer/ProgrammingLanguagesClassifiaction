@@ -1,0 +1,1 @@
+b'module Data.Maybe.Util where\n\nmergeMaybe :: (a -> a -> a) -> Maybe a -> Maybe a -> Maybe a\nmergeMaybe f Nothing x         = x\nmergeMaybe f x       Nothing   = x\nmergeMaybe f (Just x) (Just y) = Just $ f x y\n'

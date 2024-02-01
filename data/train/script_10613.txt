@@ -1,0 +1,1 @@
+b'package com.zzg.mybatis.generator.exception;\n\n/**\n * \xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe9\xa9\xb1\xe5\x8a\xa8\xe5\x8a\xa0\xe8\xbd\xbd\xe5\xbc\x82\xe5\xb8\xb8\n * @Date 2017/8/15 21:46\n * @Author jy\n */\npublic class DbDriverLoadingException extends RuntimeException{\n\n    public DbDriverLoadingException(String message){\n        super(message);\n    }\n}\n'

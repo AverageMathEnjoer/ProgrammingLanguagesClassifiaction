@@ -3,5 +3,7 @@
   "train_labels": "train_labels.csv",
   "test_ids": "test_ids.csv",
   "train_data": "train/",
-  "test_data": "test/"
+  "test_data": "test/",
+  "model_path": "model",
+  "vec_path": "vec.joblib"
 }

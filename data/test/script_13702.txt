@@ -1,0 +1,1 @@
+b'package droidninja.filepicker.fragments\n\ninterface PhotoPickerFragmentListener {\n    fun onItemSelected()\n    fun setToolbarTitle(count: Int)\n}'

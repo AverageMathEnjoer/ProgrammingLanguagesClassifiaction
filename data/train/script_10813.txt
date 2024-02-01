@@ -1,0 +1,1 @@
+b'package co.joebirch.composeplayground\n\nimport androidx.compose.runtime.Composable\n\ninterface ComposableLayout {\n\n    @Composable\n    fun build()\n}'

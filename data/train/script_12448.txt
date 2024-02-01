@@ -1,0 +1,1 @@
+b'module Rest.ShowUrl (module Rest.Types.ShowUrl) where\n\nimport Rest.Types.ShowUrl\n'

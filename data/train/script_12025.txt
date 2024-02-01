@@ -1,0 +1,1 @@
+b'module Main (main) where\n\nimport Distribution.Simple\n\nmain :: IO ()\nmain = defaultMain\n'

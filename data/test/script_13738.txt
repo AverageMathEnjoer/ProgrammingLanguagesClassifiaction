@@ -1,0 +1,1 @@
+b'package com.naman14.timber.widgets;\n\npublic interface BubbleTextGetter {\n    String getTextToShowInBubble(int pos);\n}'

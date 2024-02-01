@@ -1,0 +1,1 @@
+b'library(testthat)\nlibrary(template)\n\ntest_check("template")\n'

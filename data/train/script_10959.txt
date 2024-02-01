@@ -1,0 +1,1 @@
+b'//the bit size\n#define szz 17\nvoid go(ll no, vector<int> &a){\n\ta.clear();\n\twhile(no){\n\t\ta.push_back(no%2);\n\t\tno /= 2;\n\t}\n\tint left = szz-a.size();\n\twhile(left--) a.pb(0);\n\t//If you uncomment the following  10 will become -> 00000000000001010\n\t// reverse(a.begin(), a.end());\n}\n'

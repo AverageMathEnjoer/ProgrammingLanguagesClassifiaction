@@ -1,0 +1,1 @@
+b'// Global using directives\n\nglobal using Console = Colorful.Console;\nglobal using Color = System.Drawing.Color;\n\nglobal using RonSijm.ButtFish.Connectors;\nglobal using RonSijm.ButtFish.Ascii;\nglobal using RonSijm.ButtFish.Encoders;\nglobal using RonSijm.UCIEngineInterop.Core;\nglobal using RonSijm.UCIEngineInterop.Exceptions;'

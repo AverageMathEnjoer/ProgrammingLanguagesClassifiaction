@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.CrossCuttingConcerns.Logging\n{\n    public class LogDetail\n    {\n        public string MethodName { get; set; }\n        public List<LogParameter> LogParameters { get; set; }\n        \n    }\n\n\n}\n'

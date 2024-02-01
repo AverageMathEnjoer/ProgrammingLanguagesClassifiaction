@@ -1,0 +1,1 @@
+b'package com.iammert.library\n\nimport android.graphics.drawable.Drawable\n\ndata class AnimatedTabItemConfig(\n        var drawable: Drawable? = null,\n        var activeColor: Int = 0,\n        var inactiveColor: Int = 0,\n        var size: Float = 0f,\n        var space: Int = 0)'

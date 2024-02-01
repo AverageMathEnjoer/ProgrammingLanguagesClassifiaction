@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.Utilities.Results\n{\n    public class SuccessResult:Result\n    {\n        public SuccessResult(string message) : base(true, message)\n        {\n        }\n\n        public SuccessResult() : base(true)\n        {\n        }\n    }\n}\n'

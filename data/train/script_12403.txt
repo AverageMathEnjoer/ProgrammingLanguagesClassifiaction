@@ -1,0 +1,1 @@
+b'import org.gradle.api.Plugin\nimport org.gradle.api.Project\n\n/**\n * Created by benny.\n */\nclass TestPlugin: Plugin<Project> {\n    override fun apply(target: Project) {\n        println("Test Plugin applied!")\n    }\n}'

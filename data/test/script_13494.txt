@@ -1,0 +1,1 @@
+b'package com.codeest.geeknews.di.scope;\n\nimport java.lang.annotation.Retention;\n\nimport javax.inject.Scope;\n\nimport static java.lang.annotation.RetentionPolicy.RUNTIME;\n\n/**\n * Created by codeest on 16/8/7.\n */\n\n@Scope\n@Retention(RUNTIME)\npublic @interface FragmentScope {\n}\n'

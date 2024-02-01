@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.Utilities.Security.Jwt\n{\n    public class TokenOptions\n    {\n        public string Audience { get; set; }\n        public string Issuer { get; set; }\n        public int AccessTokenExpiration { get; set; }\n        public string SecurityKey { get; set; }\n    }\n}\n'

@@ -1,0 +1,1 @@
+b'package com.bennyhuo.kotlin.update15.sealedinterfaces.since1_5.samepackage\n\nclass Cons<T>(val value: T, val next: List<T>): List<T>\n'

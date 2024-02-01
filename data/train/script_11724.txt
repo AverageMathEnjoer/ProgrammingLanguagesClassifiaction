@@ -1,0 +1,1 @@
+b'import Data.Array\n\nminfree = search . checklist\n\nchecklist :: [Int] -> Array Int Bool\nchecklist xs = accumArray (||) False (0, n ) (zip (filter (<= n) xs) (repeat True)) \n        where n = length xs\n\nsearch :: Array Int Bool -> Int \nsearch = length . takeWhile id . elems\n'

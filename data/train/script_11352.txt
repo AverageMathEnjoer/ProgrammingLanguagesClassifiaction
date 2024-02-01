@@ -1,0 +1,1 @@
+b'module Rest.Gen.Base.ActionInfo.Ident (Ident (..)) where\n\nimport qualified Rest.Gen.NoAnnotation as N\n\ndata Ident = Ident\n  { description    :: String\n  , haskellType    :: N.Type\n  , haskellModules :: [N.ModuleName]\n  } deriving (Show, Eq)\n'

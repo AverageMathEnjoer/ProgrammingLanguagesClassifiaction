@@ -1,0 +1,1 @@
+b'package droidninja.filepicker.models.sort\n\nimport droidninja.filepicker.models.Document\nimport java.util.*\n\n/**\n * Created by gabriel on 10/2/17.\n */\nenum class SortingTypes(val comparator: Comparator<Document>?) {\n    NAME(NameComparator()), NONE(null);\n}'

@@ -1,0 +1,1 @@
+b'module TreeSitter.Nix.Internal (\n  tree_sitter_nix\n) where\n\nimport Foreign.Ptr\nimport TreeSitter.Language\n\nforeign import ccall unsafe "vendor/tree-sitter-nix/src/parser.c tree_sitter_nix" tree_sitter_nix :: Ptr Language\n'

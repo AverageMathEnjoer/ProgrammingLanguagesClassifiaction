@@ -1,0 +1,1 @@
+b'module Network.Server.Chat\n(\n  module Network.Server.Chat.Chat\n, module Network.Server.Chat.Loop\n) where\n\nimport Network.Server.Chat.Chat\nimport Network.Server.Chat.Loop\n'

@@ -1,0 +1,1 @@
+b'module Rest.Types.Range (Range (..)) where\n\n-- | Data type for representing the requested range in list handlers.\n\ndata Range = Range { offset :: Int, count :: Int }\n'

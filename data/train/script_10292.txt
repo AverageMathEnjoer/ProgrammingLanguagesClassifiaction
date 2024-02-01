@@ -1,0 +1,1 @@
+b'\n-- | Various types\n\nmodule Pdf.Document.Types\n  ( module Pdf.Core.Types\n  )\nwhere\n\nimport Pdf.Core.Types\n'

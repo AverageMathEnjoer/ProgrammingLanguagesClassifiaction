@@ -1,0 +1,1 @@
+b'import Control.Monad.Par\n\n-- OR, with the Trace scheduler:\n-- import Control.Monad.Par.Scheds.Trace\n-- import Control.Monad.Par.Combinator\n\ntest :: [Int] -> IO [Int]\ntest xs = do\n    let list = runPar $ parMap (\\x -> x + 1) xs\n    putStrLn $ show list\n    test list\n\nmain = do\n    test [1]\n'

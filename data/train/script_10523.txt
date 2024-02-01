@@ -1,0 +1,1 @@
+b'package com.codeest.geeknews.model.http.response;\n\n/**\n * Created by codeest on 16/11/27.\n */\n\npublic class GoldHttpResponse<T> {\n\n    private T results;\n\n    public T getResults() {\n        return results;\n    }\n\n    public void setResults(T results) {\n        this.results = results;\n    }\n}\n'

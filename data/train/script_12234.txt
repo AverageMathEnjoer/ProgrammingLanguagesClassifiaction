@@ -1,0 +1,1 @@
+b'insert :: Ord a => a -> [[a]] -> [[a]]\ninsert x [] = [[x]]\ninsert x (xs : xss) = if x <= head xs \n                      then (x : xs) : xss\n                      else xs : insert x xss\n\nsupravel :: Ord a => [a] -> [[a]]\nsupravel = foldr insert [] \n'

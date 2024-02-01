@@ -1,0 +1,1 @@
+b'package id.zelory.compressor.constraint\n\nimport java.io.File\n\n/**\n * Created on : January 24, 2020\n * Author     : zetbaitsu\n * Name       : Zetra\n * GitHub     : https://github.com/zetbaitsu\n */\n interface Constraint {\n    fun isSatisfied(imageFile: File): Boolean\n\n    fun satisfy(imageFile: File): File\n}'

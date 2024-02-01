@@ -1,0 +1,1 @@
+b'#include "IProgressIndicator.h"\n\nIProgressIndicator::IProgressIndicator() {}\nIProgressIndicator::~IProgressIndicator() {}\n'

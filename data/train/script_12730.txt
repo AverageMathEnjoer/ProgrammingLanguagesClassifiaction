@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace Core.Utilities.Results\n{\n    public interface IResult\n    {\n        bool Success { get; }\n        string Message { get; }\n    }\n}\n'

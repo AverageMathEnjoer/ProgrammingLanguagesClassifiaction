@@ -1,0 +1,1 @@
+b'package com.db.williamchart.data\n\nenum class AxisType {\n    NONE, // No axis\n    X, // Only axis X\n    Y, // Only axis Y\n    XY // All axis\n}\n\nfun AxisType.shouldDisplayAxisX(): Boolean {\n    return this == AxisType.XY || this == AxisType.X\n}\n\nfun AxisType.shouldDisplayAxisY(): Boolean {\n    return this == AxisType.XY || this == AxisType.Y\n}\n'

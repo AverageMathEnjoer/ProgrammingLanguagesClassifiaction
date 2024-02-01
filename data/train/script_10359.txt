@@ -1,0 +1,1 @@
+b'/*\n    hashmodel.cpp\n\n    SPDX-FileCopyrightText: 2016-2022 Klar\xc3\xa4lvdalens Datakonsult AB a KDAB Group company <info@kdab.com>\n    SPDX-FileContributor: Milian Wolff <milian.wolff@kdab.com>\n\n   SPDX-License-Identifier: GPL-2.0-or-later\n*/\n\n#include "hashmodel.h"\n'

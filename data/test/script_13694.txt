@@ -1,0 +1,1 @@
+b'package com.droidcba.kedditbysteps.commons.adapter\n\nimport android.support.v7.widget.RecyclerView\nimport android.view.ViewGroup\n\ninterface ViewTypeDelegateAdapter {\n\n    fun onCreateViewHolder(parent: ViewGroup): RecyclerView.ViewHolder\n\n    fun onBindViewHolder(holder: RecyclerView.ViewHolder, item: ViewType)\n}'

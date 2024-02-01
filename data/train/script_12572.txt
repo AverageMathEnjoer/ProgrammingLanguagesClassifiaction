@@ -1,0 +1,1 @@
+b'package com.db.williamchart.extensions\n\nimport android.content.res.Resources\n\nfun Int.toPx(): Int = (this * Resources.getSystem().displayMetrics.density).toInt()\n'

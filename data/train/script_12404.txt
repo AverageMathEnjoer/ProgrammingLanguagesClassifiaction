@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing Core.DataAccess;\nusing Entities.Concrete;\nusing System;\nusing System.Collections.Generic;\nusing System.Text;\n\nnamespace DataAccess.Abstract\n{\n    public interface IProductDal:IEntityRepository<Product>\n    {\n\n    }\n}\n'

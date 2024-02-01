@@ -1,0 +1,1 @@
+b'module Main where\n\nimport Data.IntSet as C\nimport SetOperations\n\nmain = benchmark fromList True [("union", C.union), ("difference", C.difference), ("intersection", C.intersection)]\n'

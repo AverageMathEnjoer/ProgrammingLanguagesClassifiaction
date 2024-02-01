@@ -1,0 +1,1 @@
+b'package effectivejava.chapter12.item89.enumsingleton;\n\nimport java.util.*;\n\n// Enum singleton - the preferred approach - Page 311\npublic enum Elvis {\n    INSTANCE;\n    private String[] favoriteSongs =\n        { "Hound Dog", "Heartbreak Hotel" };\n    public void printFavorites() {\n        System.out.println(Arrays.toString(favoriteSongs));\n    }\n}'

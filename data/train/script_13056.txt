@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfnamespace RonSijm.UCIEngineInterop.Exceptions;\n\npublic class MaxTriesException : Exception\n{\n    public MaxTriesException(string msg = "") : base(msg) { }\n}'

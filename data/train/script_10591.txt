@@ -1,0 +1,1 @@
+b'package net.println.kt04\n\n/**\n * Created by benny on 10/14/16.\n */\nfun main(args: Array<String>): Unit{\n    args.map(::println)\n}'

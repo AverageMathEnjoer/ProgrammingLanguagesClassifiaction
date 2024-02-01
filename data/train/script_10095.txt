@@ -1,0 +1,1 @@
+b'#include "config.h"\n\nnamespace riru {\n    const int versionCode = ${RIRU_VERSION_CODE};\n    const char* const versionName = "${RIRU_VERSION_NAME}";\n    const int apiVersion = ${RIRU_API_VERSION};\n    const int minApiVersion = ${RIRU_MIN_API_VERSION};\n}\n'

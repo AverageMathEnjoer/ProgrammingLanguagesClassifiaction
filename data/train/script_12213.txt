@@ -1,0 +1,1 @@
+b'#load "../Excel VM/Parser.Definition.fs"\nnamespace Parser\nmodule FSharpParser =\n  let parseSyntax s = Parser.Definition.Token ""'

@@ -1,0 +1,1 @@
+b'type Hito = String\n\nparents :: Hito -> [Hito]\nparents x = [x++"\xe3\x81\xae\xe7\x88\xb6", x++"\xe3\x81\xae\xe6\xaf\x8d"]\n\nsenzo :: Int -> Hito -> [Hito]\nsenzo 0 x = return x\nsenzo n x = do\n  y <- senzo (n-1) x\n  parents y\n\nsenzo\' n x = \n  senzo (n-1) x >>=\n  parents \n\n\nmain = mapM_ putStrLn $ \n  senzo 3 "\xe6\x9d\x91\xe4\xb8\xbb"\n'

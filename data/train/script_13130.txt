@@ -1,0 +1,1 @@
+b'package net.println.kt10.kotlin\n\n/**\n * Created by benny on 11/13/16.\n */\nobject PlainOldSingleton {\n\n}'

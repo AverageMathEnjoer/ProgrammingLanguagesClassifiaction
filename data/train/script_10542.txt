@@ -1,0 +1,1 @@
+b'package net.println.kt01\n\n/**\n * Created by benny on 10/11/16.\n */\nfun main(args: Array<out String>){\n    println("Hello World!!")\n    println(Main("Bennyhuo", 0))\n}\n\nclass Main(val title: String, val id: Int){\n    override fun toString(): String {\n        return "$id - $title"\n    }\n}'

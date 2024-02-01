@@ -1,0 +1,1 @@
+b'package wendu.dsbridge;\n\n/**\n * Created by du on 16/12/31.\n */\n\npublic interface OnReturnValue<T> {\n    void onValue( T retValue);\n}\n'

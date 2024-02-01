@@ -1,0 +1,1 @@
+b'#\' Find the environment that encloses of a function.\n#\'\n#\' This is a wrapper around \\code{\\link{environment}} with a\n#\' consistent syntax.\n#\'\n#\' @param f The name of a function.\n#\' @export\n#\' @examples\n#\' enclosing_env("plot")\n#\' enclosing_env("t.test")\nenclosing_env <- function(f) {\n  f <- match.fun(f)\n  environment(f)\n}\n'

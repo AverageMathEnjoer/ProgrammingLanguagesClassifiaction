@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Text;\nusing Microsoft.Extensions.DependencyInjection;\n\nnamespace Core.Utilities.IoC\n{\n    public interface ICoreModule\n    {\n        void Load(IServiceCollection collection);\n    }\n}\n'

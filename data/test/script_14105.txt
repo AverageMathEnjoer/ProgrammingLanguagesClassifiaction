@@ -1,0 +1,1 @@
+b'open System\n\n/// Gets the distance to a given destination \nlet getDistance (destination) =\n    if destination = "Gas" then 10\n    // fill in the blanks!\n    else failwith "Unknown destination!"\n\n// Couple of quick tests\ngetDistance("Home") = 25\ngetDistance("Stadium") = 25\n\n'

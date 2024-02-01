@@ -1,0 +1,1 @@
+b'import Data.Array\nimport Data.Array.ST\n\nminfree = search . checklist\n\nchecklist :: [Int] -> Array Int Bool\nchecklist xs = runSTArray (do\n        {a <- newArray (0, n) False;\n        sequence [writeArray a x True | x <- xs, x <= n];\n        return a}\n    )\n    where n = length xs\n\nsearch :: Array Int Bool -> Int \nsearch = length . takeWhile id . elems\n'

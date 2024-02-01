@@ -1,0 +1,1 @@
+b'package io.github.javiewer.view.listener;\n\n/**\n * Project: JAViewer\n */\n\npublic abstract class EndlessOnScrollListener<I> extends BasicOnScrollListener<I> {\n\n    @Override\n    public boolean isEnd() {\n        return false;\n    }\n}\n'

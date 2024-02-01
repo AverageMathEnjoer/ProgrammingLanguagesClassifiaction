@@ -1,0 +1,1 @@
+b'\nimport           Network.Wai.Handler.Warp\nimport           System.IO\n\nimport           App\n\nmain :: IO ()\nmain = do\n  let port     = 3000\n      settings = setPort port $ setBeforeMainLoop\n        (hPutStrLn stderr ("listening on port " ++ show port ++ "..."))\n        defaultSettings\n  runSettings settings =<< app\n'

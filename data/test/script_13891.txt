@@ -1,0 +1,1 @@
+b'package effectivejava.chapter4.item23.hierarchy;\n\n// Class hierarchy replacement for a tagged class  (Page 110-11)\nclass Circle extends Figure {\n    final double radius;\n\n    Circle(double radius) { this.radius = radius; }\n\n    @Override double area() { return Math.PI * (radius * radius); }\n}\n'

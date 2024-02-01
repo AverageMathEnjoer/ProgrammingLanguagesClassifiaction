@@ -1,0 +1,1 @@
+b'module Network.Server\n(\n  module Network.Server.Common\n) where\n\nimport Network.Server.Common\n\n'

@@ -1,0 +1,1 @@
+b'package com.zzg.mybatis.generator.model;\n\npublic class CachedFXMLLoader {\n\n}\n'

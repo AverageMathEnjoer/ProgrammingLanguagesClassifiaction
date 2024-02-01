@@ -1,0 +1,1 @@
+b'\xef\xbb\xbfnamespace RonSijm.UCIEngineInterop.Models;\n\npublic enum Color\n{\n    Black,\n    White\n}'

@@ -1,0 +1,1 @@
+b'package com.naman14.timber.lastfmapi.models;\n\nimport com.google.gson.annotations.SerializedName;\nimport com.naman14.timber.lastfmapi.LastFmClient;\n\n/**\n * Created by christoph on 17.07.16.\n */\npublic class UserLoginInfo {\n    private static final String SESSION = "session";\n\n    @SerializedName(SESSION)\n    public LastfmUserSession mSession;\n\n\n}\n'

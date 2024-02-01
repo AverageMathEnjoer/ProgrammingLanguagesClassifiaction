@@ -1,0 +1,1 @@
+b'package com.rengwuxian.materialedittext.validation;\n\n/**\n * Created by mariotaku on 15/4/12.\n */\npublic abstract class METLengthChecker {\n\n    public abstract int getLength(CharSequence text);\n\n}\n'

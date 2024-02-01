@@ -1,0 +1,1 @@
+b'package com.db.williamchart.animation\n\nimport com.db.williamchart.data.DonutDataPoint\n\nclass DonutNoAnimation : ChartAnimation<DonutDataPoint>() {\n\n    override fun animateFrom(\n        startPosition: Float,\n        entries: List<DonutDataPoint>,\n        callback: () -> Unit\n    ): ChartAnimation<DonutDataPoint> = this\n}\n'

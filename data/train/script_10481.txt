@@ -1,0 +1,1 @@
+b'package com.db.williamchart\n\nimport android.graphics.Canvas\nimport com.db.williamchart.data.Frame\n\ninterface Grid {\n    fun draw(\n        canvas: Canvas,\n        innerFrame: Frame,\n        xLabelsPositions: List<Float>,\n        yLabelsPositions: List<Float>\n    )\n}\n'

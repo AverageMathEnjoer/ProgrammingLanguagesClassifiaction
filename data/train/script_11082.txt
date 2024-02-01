@@ -1,0 +1,1 @@
+b'package net.println.kt11\n\n/**\n * Created by benny on 11/27/16.\n */\nfun main(args: Array<String>) {\n    val player: Player = Player()\n    player.play("http://ws.stream.qqmusic.qq.com/C2000012Ppbd3hjGOK.m4a")\n    player.pause()\n    player.resume()\n    player.seekTo(30000)\n    player.stop()\n}'
