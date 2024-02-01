@@ -28,6 +28,11 @@ class Classifier(CatBoostClassifier):
     def _dfit(self):
         d = self.contest_data.transform_data()
         self.fit(d[0][0], d[0][1], eval_set=d[1], verbose=False, plot=False)
-
+    '''
+    Функция для распознавания произвольного файла
+    '''
     def analyze(self, path):
-        pass
+        translator = ["C#", "C++", "F#", "Haskell", "Java", "Kotlin", "R"]
+        with open(path) as f:
+            s = f.read()
+        return translator[int(self.predict(self.contest_data.vectorizer.transform([s])[0][0]))]
